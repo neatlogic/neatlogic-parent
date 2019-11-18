@@ -4,7 +4,7 @@
 	<artifactId>codedriver-parent</artifactId>
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
-	<properties>
+	<properties>  
 		<java-version>1.8</java-version>
 		<org.slf4j-version>1.7.20</org.slf4j-version>
 		<spring.version>5.2.1.RELEASE</spring.version>
