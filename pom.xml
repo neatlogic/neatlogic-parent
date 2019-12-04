@@ -315,4 +315,7 @@
 			</exclusions>
 		</dependency>
 	</dependencies>
+	<modules>
+		<module>codedriver-process</module>
+	</modules>
 </project>
