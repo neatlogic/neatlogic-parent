@@ -314,6 +314,34 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<dependency>
+			<groupId>org.freemarker</groupId>
+			<artifactId>freemarker</artifactId>
+			<version>2.3.23</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-email</artifactId>
+			<version>1.4</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>javax.mail</artifactId>
+					<groupId>com.sun.mail</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4.7</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>activation</artifactId>
+					<groupId>javax.activation</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
 	</dependencies>
 	<modules>
 		<module>codedriver-process</module>
