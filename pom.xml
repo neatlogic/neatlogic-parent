@@ -344,6 +344,6 @@
 		</dependency>
 	</dependencies>
 	<modules>
-		<module>codedriver-process</module>
+		<module>../codedriver-process</module>
 	</modules>
 </project>
