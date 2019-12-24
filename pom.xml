@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.techsure</groupId>
 	<artifactId>codedriver-parent</artifactId>
-	<version>1.0.0</version>
+	<version>0.1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<properties>
 		<java-version>1.8</java-version>
