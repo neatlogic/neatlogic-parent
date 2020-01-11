@@ -349,5 +349,10 @@
 			<artifactId>javers-core</artifactId>
 			<version>5.8.7</version>
 		</dependency>
+		<dependency>
+			<groupId>com.techsure</groupId>
+			<artifactId>passwd</artifactId>
+			<version>0.1</version>
+		</dependency>
 	</dependencies>
 </project>
