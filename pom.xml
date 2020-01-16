@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.techsure</groupId>
 	<artifactId>codedriver-parent</artifactId>
-	<version>1.0.1.1</version>
+	<version>1.0.2.1</version>
 	<packaging>pom</packaging>
 	<properties>
 		<java-version>1.8</java-version>
@@ -348,6 +348,11 @@
 			<groupId>org.javers</groupId>
 			<artifactId>javers-core</artifactId>
 			<version>5.8.7</version>
+		</dependency>
+		<dependency>
+			<groupId>com.techsure</groupId>
+			<artifactId>passwd</artifactId>
+			<version>0.1</version>
 		</dependency>
 	</dependencies>
 </project>
