@@ -354,5 +354,10 @@
 			<artifactId>passwd</artifactId>
 			<version>0.1</version>
 		</dependency>
+		<dependency>
+			<groupId>com.belerweb</groupId>
+			<artifactId>pinyin4j</artifactId>
+			<version>2.5.0</version>
+		</dependency>
 	</dependencies>
 </project>
