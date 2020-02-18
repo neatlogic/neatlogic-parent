@@ -2,12 +2,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.techsure</groupId>
 	<artifactId>codedriver-parent</artifactId>
-	<version>1.0.2.1</version>
+	<version>1.0.2.3</version>
 	<packaging>pom</packaging>
 	<properties>
 		<java-version>1.8</java-version>
 		<org.slf4j-version>1.7.20</org.slf4j-version>
-		<spring.version>5.2.1.RELEASE</spring.version>
+		<spring.version>5.2.3.RELEASE</spring.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<build>
@@ -223,33 +223,7 @@
 			<artifactId>spring-jdbc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-core</artifactId>
-			<version>${spring.version}</version>
-			<exclusions>
-				<exclusion>
-					<artifactId>spring-aop</artifactId>
-					<groupId>org.springframework</groupId>
-				</exclusion>
-				<exclusion>
-					<artifactId>spring-beans</artifactId>
-					<groupId>org.springframework</groupId>
-				</exclusion>
-				<exclusion>
-					<artifactId>spring-context</artifactId>
-					<groupId>org.springframework</groupId>
-				</exclusion>
-				<exclusion>
-					<artifactId>spring-core</artifactId>
-					<groupId>org.springframework</groupId>
-				</exclusion>
-				<exclusion>
-					<artifactId>spring-expression</artifactId>
-					<groupId>org.springframework</groupId>
-				</exclusion>
-			</exclusions>
-		</dependency>
+		<!-- <dependency> <groupId>org.springframework.security</groupId> <artifactId>spring-security-core</artifactId> <version>${spring.version}</version> <exclusions> <exclusion> <artifactId>spring-aop</artifactId> <groupId>org.springframework</groupId> </exclusion> <exclusion> <artifactId>spring-beans</artifactId> <groupId>org.springframework</groupId> </exclusion> <exclusion> <artifactId>spring-context</artifactId> <groupId>org.springframework</groupId> </exclusion> <exclusion> <artifactId>spring-core</artifactId> <groupId>org.springframework</groupId> </exclusion> <exclusion> <artifactId>spring-expression</artifactId> <groupId>org.springframework</groupId> </exclusion> </exclusions> </dependency> -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-aspects</artifactId>
@@ -317,11 +291,6 @@
 			</exclusions>
 		</dependency>
 		<dependency>
-			<groupId>org.freemarker</groupId>
-			<artifactId>freemarker</artifactId>
-			<version>2.3.23</version>
-		</dependency>
-		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-email</artifactId>
 			<version>1.4</version>
@@ -358,6 +327,11 @@
 			<groupId>com.belerweb</groupId>
 			<artifactId>pinyin4j</artifactId>
 			<version>2.5.0</version>
-		</dependency> 
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-hadoop</artifactId>
+			<version>2.5.0.RELEASE</version>
+		</dependency>
 	</dependencies>
 </project>
