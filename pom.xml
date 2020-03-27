@@ -333,5 +333,15 @@
 			<artifactId>spring-data-hadoop</artifactId>
 			<version>2.5.0.RELEASE</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.13</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.13</version>
+		</dependency>
 	</dependencies>
 </project>
