@@ -2,12 +2,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.techsure</groupId>
 	<artifactId>codedriver-parent</artifactId>
-	<version>1.0.2.12</version>
+	<version>1.0.2.13</version>
 	<packaging>pom</packaging>
 	<properties>
 		<java-version>1.8</java-version>
-		<org.slf4j-version>1.7.20</org.slf4j-version>
-		<spring.version>5.2.3.RELEASE</spring.version>
+		<org.slf4j-version>1.7.30</org.slf4j-version>
+		<spring.version>5.2.8.RELEASE</spring.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<build>
@@ -125,7 +125,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.9</version>
+			<version>3.11</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-fileupload</groupId>
@@ -135,7 +135,7 @@
 		<dependency>
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
-			<version>2.6</version>
+			<version>2.8.0</version>
 		</dependency>
 		<!-- <dependency> <groupId>com.alibaba</groupId> <artifactId>druid</artifactId> <version>1.1.21</version> </dependency> -->
 		<dependency>
@@ -166,7 +166,7 @@
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
-			<version>3.5.3</version>
+			<version>3.5.5</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -249,12 +249,12 @@
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis-spring</artifactId>
-			<version>2.0.3</version>
+			<version>2.0.5</version>
 		</dependency>
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
-			<version>1.2.72</version>
+			<version>1.2.73</version>
 		</dependency>
 		<dependency>
 			<groupId>com.itextpdf.tool</groupId>
@@ -296,7 +296,7 @@
 		<dependency>
 			<groupId>org.mybatis.caches</groupId>
 			<artifactId>mybatis-ehcache</artifactId>
-			<version>1.1.0</version>
+			<version>1.2.1</version>
 			<exclusions>
 				<exclusion>
 					<groupId>org.slf4j</groupId>
@@ -312,7 +312,7 @@
 		<dependency>
 			<groupId>org.reflections</groupId>
 			<artifactId>reflections</artifactId>
-			<version>0.9.9-RC1</version>
+			<version>0.9.12</version>
 			<exclusions>
 				<exclusion>
 					<artifactId>guava</artifactId>
@@ -327,7 +327,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-email</artifactId>
-			<version>1.4</version>
+			<version>1.5</version>
 			<exclusions>
 				<exclusion>
 					<artifactId>javax.mail</artifactId>
@@ -466,7 +466,7 @@
 		<dependency>
 			<groupId>commons-net</groupId>
 			<artifactId>commons-net</artifactId>
-			<version>3.2</version>
+			<version>3.7</version>
 		</dependency>
 	</dependencies>
 </project>
