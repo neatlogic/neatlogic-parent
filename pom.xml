@@ -468,5 +468,10 @@
 			<artifactId>commons-net</artifactId>
 			<version>3.7</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.Tika</groupId>
+			<artifactId>Tika-parsers</artifactId>
+			<version>1.24.1</version>
+		</dependency>
 	</dependencies>
 </project>
