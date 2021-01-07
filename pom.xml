@@ -473,5 +473,21 @@
 			<artifactId>tika-parsers</artifactId>
 			<version>1.24.1</version>
 		</dependency>
+
+		<dependency>
+			<groupId>net.sf.jtidy</groupId>
+			<artifactId>jtidy</artifactId>
+			<version>r938</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-core</artifactId>
+			<version>8.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.magese</groupId>
+			<artifactId>ik-analyzer</artifactId>
+			<version>8.1.0.techsure</version>
+		</dependency>
 	</dependencies>
 </project>
