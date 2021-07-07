@@ -306,17 +306,30 @@
             <artifactId>spring-jdbc</artifactId>
             <version>${spring.version}</version>
         </dependency>
-        <!-- <dependency> <groupId>org.springframework.security</groupId> <artifactId>spring-security-core</artifactId> <version>${spring.version}</version> <exclusions> <exclusion> <artifactId>spring-aop</artifactId> <groupId>org.springframework</groupId> </exclusion> <exclusion> <artifactId>spring-beans</artifactId> <groupId>org.springframework</groupId> </exclusion> <exclusion> <artifactId>spring-context</artifactId> <groupId>org.springframework</groupId> </exclusion> <exclusion> <artifactId>spring-core</artifactId> <groupId>org.springframework</groupId> </exclusion> <exclusion> <artifactId>spring-expression</artifactId> <groupId>org.springframework</groupId> </exclusion> </exclusions> </dependency> -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aspects</artifactId>
             <version>${spring.version}</version>
         </dependency>
-        <!-- <dependency> <groupId>org.aspectj</groupId> <artifactId>aspectjtools</artifactId> <version>1.9.4</version> </dependency> -->
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis-spring</artifactId>
             <version>2.0.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-mongodb</artifactId>
+            <version>3.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver-core</artifactId>
+            <version>4.2.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver-sync</artifactId>
+            <version>4.2.3</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -435,14 +448,11 @@
             <artifactId>pinyin4j</artifactId>
             <version>2.5.0</version>
         </dependency>
-        <!-- <dependency> <groupId>org.springframework.data</groupId> <artifactId>spring-data-hadoop</artifactId> <version>2.5.0.RELEASE</version> <exclusions> <exclusion> <groupId>javax.servlet</groupId> <artifactId>servlet-api</artifactId> </exclusion> </exclusions> </dependency> -->
-        <!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
         <dependency>
             <groupId>org.freemarker</groupId>
             <artifactId>freemarker</artifactId>
             <version>2.3.30</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
