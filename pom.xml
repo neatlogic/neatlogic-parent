@@ -675,5 +675,11 @@
             <artifactId>jsqlparser</artifactId>
             <version>4.0</version>
         </dependency>
+        <dependency>
+            <groupId>org</groupId>
+            <artifactId>jtidy-r938</artifactId>
+            <version>1.0</version>
+            <!--全文检索高亮关键字用-->
+        </dependency>
     </dependencies>
 </project>
