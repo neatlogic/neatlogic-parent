@@ -686,5 +686,10 @@
             <version>1.0</version>
             <!--全文检索高亮关键字用-->
         </dependency>
+        <dependency>
+            <groupId>org.antlr</groupId>
+            <artifactId>antlr4-runtime</artifactId>
+            <version>4.9.3</version>
+        </dependency>
     </dependencies>
 </project>
