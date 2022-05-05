@@ -8,7 +8,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.techsure</groupId>
     <artifactId>codedriver-parent</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.3.1</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -544,6 +544,11 @@
                     <groupId>junit</groupId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.docx4j</groupId>
+            <artifactId>docx4j-JAXB-Internal</artifactId>
+            <version>8.2.1</version>
         </dependency>
         <dependency>
             <groupId>org.docx4j</groupId>
