@@ -655,7 +655,7 @@
         <dependency>
             <groupId>org.antlr</groupId>
             <artifactId>antlr4-runtime</artifactId>
-            <version>4.10.1</version>
+            <version>4.9.2</version><!--不能随意更改此版本，改了要使用对应版本重新生成所有语法分析器！-->
         </dependency>
         <!--    <dependency>
                 <groupId>com.github.penggle</groupId>
