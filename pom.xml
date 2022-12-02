@@ -18,6 +18,18 @@
         <spring.version>5.3.20</spring.version>
         <jackson.version>2.14.0-rc2</jackson.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <codedriver.framework>[1.0.0,)</codedriver.framework>
+        <codedriver.change.base>[1.0.0,)</codedriver.change.base>
+        <codedriver.autoexec.base>[1.0.0,)</codedriver.autoexec.base>
+        <codedriver.cmdb.base>[1.0.0,)</codedriver.cmdb.base>
+        <codedriver.dashboard.base>[1.0.0,)</codedriver.dashboard.base>
+        <codedriver.deploy.base>[1.0.0,)</codedriver.deploy.base>
+        <codedriver.event.base>[1.0.0,)</codedriver.event.base>
+        <codedriver.inspect.base>[1.0.0,)</codedriver.inspect.base>
+        <codedriver.knowledge.base>[1.0.0,)</codedriver.knowledge.base>
+        <codedriver.process.base>[1.0.0,)</codedriver.process.base>
+        <codedriver.report.base>[1.0.0,)</codedriver.report.base>
+        <codedriver.tagent.base>[1.0.0,)</codedriver.tagent.base>
     </properties>
     <build>
         <plugins>
