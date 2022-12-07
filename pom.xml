@@ -23,66 +23,67 @@
         <profile>
             <id>develop</id>
             <properties>
-                <codedriver.framework>0.1.2.0-SNAPSHOT</codedriver.framework>
-                <codedriver.change.base>[1.0,)</codedriver.change.base>
+                <codedriver.autoexec>0.1.2.0-SNAPSHOT</codedriver.autoexec>
                 <codedriver.autoexec.base>0.1.2.0-SNAPSHOT</codedriver.autoexec.base>
-                <codedriver.process.base>[1.0,)</codedriver.process.base>
-                <codedriver.deploy.base>0.1.2.0-SNAPSHOT</codedriver.deploy.base>
-                <codedriver.cmdb.base>0.1.2.0-SNAPSHOT</codedriver.cmdb.base>
-                <codedriver.dashboard.base>[1.0,)</codedriver.dashboard.base>
-                <codedriver.event.base>[1.0,)</codedriver.event.base>
-                <codedriver.inspect.base>[1.0,)</codedriver.inspect.base>
-                <codedriver.knowledge.base>[1.0,)</codedriver.knowledge.base>
-                <codedriver.report.base>[1.0,)</codedriver.report.base>
-                <codedriver.tagent.base>[1.0,)</codedriver.tagent.base>
-                <codedriver.pbc>[1.0,)</codedriver.pbc>
-                <codedriver.tenant>[1.0,)</codedriver.tenant>
-                <codedriver.dashboard>[1.0,)</codedriver.dashboard>
-                <codedriver.process>[1.0,)</codedriver.process>
-                <codedriver.master>[1.0,)</codedriver.master>
-                <codedriver.change>[1.0,)</codedriver.change>
-                <codedriver.report>[1.0,)</codedriver.report>
-                <codedriver.event>[1.0,)</codedriver.event>
-                <codedriver.knowledge>[1.0,)</codedriver.knowledge>
-                <codedriver.autoexec>[1.0,)</codedriver.autoexec>
+                <codedriver.change>1.1.4</codedriver.change>
+                <codedriver.change.base>1.1.3</codedriver.change.base>
                 <codedriver.cmdb>0.1.2.0-SNAPSHOT</codedriver.cmdb>
-                <codedriver.tagent>[1.0,)</codedriver.tagent>
-                <codedriver.inspect>[1.0,)</codedriver.inspect>
-                <codedriver.deploy>[1.0,)</codedriver.deploy>
+                <codedriver.cmdb.base>0.1.2.0-SNAPSHOT</codedriver.cmdb.base>
+                <codedriver.dashboard>1.1.3</codedriver.dashboard>
+                <codedriver.dashboard.base>1.1.3</codedriver.dashboard.base>
+                <codedriver.deploy>1.1.4</codedriver.deploy>
+                <codedriver.deploy.base>0.1.2.0-SNAPSHOT</codedriver.deploy.base>
+                <codedriver.event>1.1.3</codedriver.event>
+                <codedriver.event.base>1.1.3</codedriver.event.base>
+                <codedriver.framework>0.1.2.0-SNAPSHOT</codedriver.framework>
+                <codedriver.inspect>1.1.3</codedriver.inspect>
+                <codedriver.inspect.base>1.1.3</codedriver.inspect.base>
+                <codedriver.knowledge>1.1.3</codedriver.knowledge>
+                <codedriver.knowledge.base>1.1.3</codedriver.knowledge.base>
+                <codedriver.master>1.1.3</codedriver.master>
+                <codedriver.pbc>1.1.3</codedriver.pbc>
+                <codedriver.process>1.1.4</codedriver.process>
+                <codedriver.process.base>1.1.3</codedriver.process.base>
+                <codedriver.report>1.1.3</codedriver.report>
+                <codedriver.report.base>1.1.3</codedriver.report.base>
+                <codedriver.tagent>1.1.3</codedriver.tagent>
+                <codedriver.tagent.base>1.1.5</codedriver.tagent.base>
+                <codedriver.tenant>1.1.2</codedriver.tenant>
             </properties>
         </profile>
         <profile>
             <id>release</id>
             <properties>
-                <codedriver.framework>[1.0,)</codedriver.framework>
-                <codedriver.change.base>[1.0,)</codedriver.change.base>
-                <codedriver.autoexec.base>[1.0,)</codedriver.autoexec.base>
-                <codedriver.process.base>[1.0,)</codedriver.process.base>
-                <codedriver.deploy.base>[1.0,)</codedriver.deploy.base>
-                <codedriver.cmdb.base>[1.0,)</codedriver.cmdb.base>
-                <codedriver.dashboard.base>[1.0,)</codedriver.dashboard.base>
-                <codedriver.event.base>[1.0,)</codedriver.event.base>
-                <codedriver.inspect.base>[1.0,)</codedriver.inspect.base>
-                <codedriver.knowledge.base>[1.0,)</codedriver.knowledge.base>
-                <codedriver.report.base>[1.0,)</codedriver.report.base>
-                <codedriver.tagent.base>[1.0,)</codedriver.tagent.base>
-                <codedriver.pbc>[1.0,)</codedriver.pbc>
-                <codedriver.tenant>[1.0,)</codedriver.tenant>
-                <codedriver.dashboard>[1.0,)</codedriver.dashboard>
-                <codedriver.process>[1.0,)</codedriver.process>
-                <codedriver.master>[1.0,)</codedriver.master>
-                <codedriver.change>[1.0,)</codedriver.change>
-                <codedriver.report>[1.0,)</codedriver.report>
-                <codedriver.event>[1.0,)</codedriver.event>
-                <codedriver.knowledge>[1.0,)</codedriver.knowledge>
-                <codedriver.autoexec>[1.0,)</codedriver.autoexec>
-                <codedriver.cmdb>[1.0,)</codedriver.cmdb>
-                <codedriver.tagent>[1.0,)</codedriver.tagent>
-                <codedriver.inspect>[1.0,)</codedriver.inspect>
-                <codedriver.deploy>[1.0,)</codedriver.deploy>
+                <codedriver.autoexec>1.1.5</codedriver.autoexec>
+                <codedriver.autoexec.base>1.1.3</codedriver.autoexec.base>
+                <codedriver.change>1.1.4</codedriver.change>
+                <codedriver.change.base>1.1.3</codedriver.change.base>
+                <codedriver.cmdb>1.1.4</codedriver.cmdb>
+                <codedriver.cmdb.base>1.1.3</codedriver.cmdb.base>
+                <codedriver.dashboard>1.1.3</codedriver.dashboard>
+                <codedriver.dashboard.base>1.1.3</codedriver.dashboard.base>
+                <codedriver.deploy>1.1.4</codedriver.deploy>
+                <codedriver.deploy.base>1.1.4</codedriver.deploy.base>
+                <codedriver.event>1.1.3</codedriver.event>
+                <codedriver.event.base>1.1.3</codedriver.event.base>
+                <codedriver.framework>1.1.4</codedriver.framework>
+                <codedriver.inspect>1.1.3</codedriver.inspect>
+                <codedriver.inspect.base>1.1.3</codedriver.inspect.base>
+                <codedriver.knowledge>1.1.3</codedriver.knowledge>
+                <codedriver.knowledge.base>1.1.3</codedriver.knowledge.base>
+                <codedriver.master>1.1.3</codedriver.master>
+                <codedriver.pbc>1.1.3</codedriver.pbc>
+                <codedriver.process>1.1.4</codedriver.process>
+                <codedriver.process.base>1.1.3</codedriver.process.base>
+                <codedriver.report>1.1.3</codedriver.report>
+                <codedriver.report.base>1.1.3</codedriver.report.base>
+                <codedriver.tagent>1.1.3</codedriver.tagent>
+                <codedriver.tagent.base>1.1.5</codedriver.tagent.base>
+                <codedriver.tenant>1.1.2</codedriver.tenant>
             </properties>
         </profile>
     </profiles>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -925,5 +926,6 @@
             <artifactId>easy-captcha</artifactId>
             <version>1.6.2</version>
         </dependency>
+
     </dependencies>
 </project>
