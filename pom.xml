@@ -55,7 +55,7 @@
             <id>release</id>
             <properties>
                 <codedriver.autoexec>1.1.8</codedriver.autoexec>
-                <codedriver.autoexec.base>1.1.4</codedriver.autoexec.base>
+                <codedriver.autoexec.base>1.1.5</codedriver.autoexec.base>
                 <codedriver.change>1.1.5</codedriver.change>
                 <codedriver.change.base>1.1.4</codedriver.change.base>
                 <codedriver.cmdb>1.1.6</codedriver.cmdb>
