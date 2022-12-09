@@ -8,7 +8,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.techsure</groupId>
     <artifactId>codedriver-parent</artifactId>
-    <version>1.1.16</version>
+    <version>1.1.17</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -89,7 +89,7 @@
                 <codedriver.autoexec.base>1.1.5</codedriver.autoexec.base>
                 <codedriver.change>1.1.5</codedriver.change>
                 <codedriver.change.base>1.1.4</codedriver.change.base>
-                <codedriver.cmdb>1.1.8</codedriver.cmdb>
+                <codedriver.cmdb>1.1.9</codedriver.cmdb>
                 <codedriver.cmdb.base>1.1.5</codedriver.cmdb.base>
                 <codedriver.dashboard>1.1.4</codedriver.dashboard>
                 <codedriver.dashboard.base>1.1.4</codedriver.dashboard.base>
