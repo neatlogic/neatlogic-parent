@@ -67,7 +67,7 @@
                 <codedriver.event>1.1.4</codedriver.event>
                 <codedriver.event.base>1.1.4</codedriver.event.base>
                 <codedriver.framework>develop-formbuilder-SNAPSHOT</codedriver.framework>
-                <codedriver.inspect>1.1.6</codedriver.inspect>
+                <codedriver.inspect>1.1.7</codedriver.inspect>
                 <codedriver.inspect.base>1.1.5</codedriver.inspect.base>
                 <codedriver.knowledge>1.1.4</codedriver.knowledge>
                 <codedriver.knowledge.base>1.1.4</codedriver.knowledge.base>
@@ -98,7 +98,7 @@
                 <codedriver.event>1.1.4</codedriver.event>
                 <codedriver.event.base>1.1.4</codedriver.event.base>
                 <codedriver.framework>1.1.9</codedriver.framework>
-                <codedriver.inspect>1.1.6</codedriver.inspect>
+                <codedriver.inspect>1.1.7</codedriver.inspect>
                 <codedriver.inspect.base>1.1.5</codedriver.inspect.base>
                 <codedriver.knowledge>1.1.4</codedriver.knowledge>
                 <codedriver.knowledge.base>1.1.4</codedriver.knowledge.base>
