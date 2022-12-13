@@ -79,7 +79,7 @@
                 <codedriver.report.base>1.1.4</codedriver.report.base>
                 <codedriver.tagent>1.1.4</codedriver.tagent>
                 <codedriver.tagent.base>1.1.6</codedriver.tagent.base>
-                <codedriver.tenant>develop-formbuilder</codedriver.tenant>
+                <codedriver.tenant>develop-formbuilder-SNAPSHOT</codedriver.tenant>
             </properties>
         </profile>
         <profile>
