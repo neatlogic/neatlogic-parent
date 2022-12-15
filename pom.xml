@@ -94,7 +94,7 @@
                 <codedriver.dashboard>1.1.4</codedriver.dashboard>
                 <codedriver.dashboard.base>1.1.4</codedriver.dashboard.base>
                 <codedriver.deploy>1.1.7</codedriver.deploy>
-                <codedriver.deploy.base>1.1.6</codedriver.deploy.base>
+                <codedriver.deploy.base>1.1.5</codedriver.deploy.base>
                 <codedriver.event>1.1.4</codedriver.event>
                 <codedriver.event.base>1.1.4</codedriver.event.base>
                 <codedriver.framework>1.1.11</codedriver.framework>
