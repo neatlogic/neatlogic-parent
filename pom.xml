@@ -8,7 +8,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.techsure</groupId>
     <artifactId>codedriver-parent</artifactId>
-    <version>2.0.3</version>
+    <version>2.0.4</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -23,21 +23,21 @@
         <profile>
             <id>develop</id>
             <properties>
-                <codedriver.autoexec>2.0.0</codedriver.autoexec>
-                <codedriver.autoexec.base>2.0.0</codedriver.autoexec.base>
+                <codedriver.autoexec>2.0.1</codedriver.autoexec>
+                <codedriver.autoexec.base>2.0.1</codedriver.autoexec.base>
                 <codedriver.change>2.0.0</codedriver.change>
                 <codedriver.change.base>2.0.0</codedriver.change.base>
                 <codedriver.cmdb>0.2.1.0-SNAPSHOT</codedriver.cmdb>
                 <codedriver.cmdb.base>0.2.1.0-SNAPSHOT</codedriver.cmdb.base>
                 <codedriver.dashboard>2.0.0</codedriver.dashboard>
                 <codedriver.dashboard.base>2.0.0</codedriver.dashboard.base>
-                <codedriver.deploy>2.0.0</codedriver.deploy>
-                <codedriver.deploy.base>2.0.0</codedriver.deploy.base>
+                <codedriver.deploy>2.0.1</codedriver.deploy>
+                <codedriver.deploy.base>2.0.1</codedriver.deploy.base>
                 <codedriver.event>2.0.0</codedriver.event>
                 <codedriver.event.base>2.0.0</codedriver.event.base>
                 <codedriver.framework>0.2.1.0-SNAPSHOT</codedriver.framework>
-                <codedriver.inspect>2.0.0</codedriver.inspect>
-                <codedriver.inspect.base>2.0.0</codedriver.inspect.base>
+                <codedriver.inspect>2.0.1</codedriver.inspect>
+                <codedriver.inspect.base>2.0.1</codedriver.inspect.base>
                 <codedriver.knowledge>2.0.0</codedriver.knowledge>
                 <codedriver.knowledge.base>2.0.0</codedriver.knowledge.base>
                 <codedriver.master>2.0.0</codedriver.master>
@@ -56,21 +56,21 @@
         <profile>
             <id>release</id>
             <properties>
-                <codedriver.autoexec>2.0.0</codedriver.autoexec>
-                <codedriver.autoexec.base>2.0.0</codedriver.autoexec.base>
+                <codedriver.autoexec>2.0.1</codedriver.autoexec>
+                <codedriver.autoexec.base>2.0.1</codedriver.autoexec.base>
                 <codedriver.change>2.0.0</codedriver.change>
                 <codedriver.change.base>2.0.0</codedriver.change.base>
-                <codedriver.cmdb>2.0.0</codedriver.cmdb>
-                <codedriver.cmdb.base>2.0.0</codedriver.cmdb.base>
+                <codedriver.cmdb>2.0.1</codedriver.cmdb>
+                <codedriver.cmdb.base>2.0.1</codedriver.cmdb.base>
                 <codedriver.dashboard>2.0.0</codedriver.dashboard>
                 <codedriver.dashboard.base>2.0.0</codedriver.dashboard.base>
-                <codedriver.deploy>2.0.0</codedriver.deploy>
-                <codedriver.deploy.base>2.0.0</codedriver.deploy.base>
+                <codedriver.deploy>2.0.1</codedriver.deploy>
+                <codedriver.deploy.base>2.0.1</codedriver.deploy.base>
                 <codedriver.event>2.0.0</codedriver.event>
                 <codedriver.event.base>2.0.0</codedriver.event.base>
-                <codedriver.framework>2.0.0</codedriver.framework>
-                <codedriver.inspect>2.0.0</codedriver.inspect>
-                <codedriver.inspect.base>2.0.0</codedriver.inspect.base>
+                <codedriver.framework>2.0.1</codedriver.framework>
+                <codedriver.inspect>2.0.1</codedriver.inspect>
+                <codedriver.inspect.base>2.0.1</codedriver.inspect.base>
                 <codedriver.knowledge>2.0.0</codedriver.knowledge>
                 <codedriver.knowledge.base>2.0.0</codedriver.knowledge.base>
                 <codedriver.master>2.0.0</codedriver.master>
