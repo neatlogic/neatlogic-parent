@@ -23,8 +23,8 @@
         <profile>
             <id>develop</id>
             <properties>
-                <codedriver.autoexec>2.0.2</codedriver.autoexec>
-                <codedriver.autoexec.base>2.0.2</codedriver.autoexec.base>
+                <codedriver.autoexec>0.2.1.0-SNAPSHOT</codedriver.autoexec>
+                <codedriver.autoexec.base>0.2.1.0-SNAPSHOT</codedriver.autoexec.base>
                 <codedriver.change>2.0.1</codedriver.change>
                 <codedriver.change.base>2.0.1</codedriver.change.base>
                 <codedriver.cmdb>0.2.1.0-SNAPSHOT</codedriver.cmdb>
