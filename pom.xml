@@ -43,7 +43,7 @@
                 <codedriver.master>2.0.1</codedriver.master>
                 <codedriver.pbc>2.0.1</codedriver.pbc>
                 <codedriver.process>0.2.1.0-SNAPSHOT</codedriver.process>
-                <codedriver.process.base>2.0.1</codedriver.process.base>
+                <codedriver.process.base>0.2.1.0-SNAPSHOT</codedriver.process.base>
                 <codedriver.rdm>0.2.0.0-SNAPSHOT</codedriver.rdm>
                 <codedriver.rdm.base>0.2.0.0-SNAPSHOT</codedriver.rdm.base>
                 <codedriver.report>2.0.1</codedriver.report>
