@@ -31,7 +31,7 @@
                 <codedriver.cmdb.base>0.2.1.0-SNAPSHOT</codedriver.cmdb.base>
                 <codedriver.dashboard>2.0.3</codedriver.dashboard>
                 <codedriver.dashboard.base>2.0.1</codedriver.dashboard.base>
-                <codedriver.deploy>2.0.2</codedriver.deploy>
+                <codedriver.deploy>2.0.3</codedriver.deploy>
                 <codedriver.deploy.base>2.0.2</codedriver.deploy.base>
                 <codedriver.event>2.0.1</codedriver.event>
                 <codedriver.event.base>2.0.1</codedriver.event.base>
@@ -64,7 +64,7 @@
                 <codedriver.cmdb.base>2.0.1</codedriver.cmdb.base>
                 <codedriver.dashboard>2.0.3</codedriver.dashboard>
                 <codedriver.dashboard.base>2.0.1</codedriver.dashboard.base>
-                <codedriver.deploy>2.0.2</codedriver.deploy>
+                <codedriver.deploy>2.0.3</codedriver.deploy>
                 <codedriver.deploy.base>2.0.2</codedriver.deploy.base>
                 <codedriver.event>2.0.1</codedriver.event>
                 <codedriver.event.base>2.0.1</codedriver.event.base>
