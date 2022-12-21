@@ -31,12 +31,12 @@
                 <codedriver.cmdb.base>0.2.1.0-SNAPSHOT</codedriver.cmdb.base>
                 <codedriver.dashboard>2.0.3</codedriver.dashboard>
                 <codedriver.dashboard.base>2.0.1</codedriver.dashboard.base>
-                <codedriver.deploy>2.0.3</codedriver.deploy>
+                <codedriver.deploy>0.2.1.0-SNAPSHOT</codedriver.deploy>
                 <codedriver.deploy.base>2.0.2</codedriver.deploy.base>
                 <codedriver.event>2.0.1</codedriver.event>
                 <codedriver.event.base>2.0.1</codedriver.event.base>
                 <codedriver.framework>0.2.1.0-SNAPSHOT</codedriver.framework>
-                <codedriver.inspect>2.0.2</codedriver.inspect>
+                <codedriver.inspect>0.2.1.0-SNAPSHOT</codedriver.inspect>
                 <codedriver.inspect.base>2.0.2</codedriver.inspect.base>
                 <codedriver.knowledge>2.0.1</codedriver.knowledge>
                 <codedriver.knowledge.base>2.0.1</codedriver.knowledge.base>
