@@ -6,9 +6,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.techsure</groupId>
+    <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.0</version>
+    <version>3.0.1</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -91,142 +91,142 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-framework</artifactId>
                 <version>${neatlogic.framework}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-change-base</artifactId>
                 <version>${neatlogic.change.base}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-autoexec-base</artifactId>
                 <version>${neatlogic.autoexec.base}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-process-base</artifactId>
                 <version>${neatlogic.process.base}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-deploy-base</artifactId>
                 <version>${neatlogic.deploy.base}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-cmdb-base</artifactId>
                 <version>${neatlogic.cmdb.base}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-dashboard-base</artifactId>
                 <version>${neatlogic.dashboard.base}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-event-base</artifactId>
                 <version>${neatlogic.event.base}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-inspect-base</artifactId>
                 <version>${neatlogic.inspect.base}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-knowledge-base</artifactId>
                 <version>${neatlogic.knowledge.base}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-report-base</artifactId>
                 <version>${neatlogic.report.base}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-tagent-base</artifactId>
                 <version>${neatlogic.tagent.base}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-pbc</artifactId>
                 <version>${neatlogic.pbc}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-tenant</artifactId>
                 <version>${neatlogic.tenant}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-dashboard</artifactId>
                 <version>${neatlogic.dashboard}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-process</artifactId>
                 <version>${neatlogic.process}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-rdm</artifactId>
                 <version>${neatlogic.rdm}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-rdm-base</artifactId>
                 <version>${neatlogic.rdm.base}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-master</artifactId>
                 <version>${neatlogic.master}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-change</artifactId>
                 <version>${neatlogic.change}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-report</artifactId>
                 <version>${neatlogic.report}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-event</artifactId>
                 <version>${neatlogic.event}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-knowledge</artifactId>
                 <version>${neatlogic.knowledge}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-autoexec</artifactId>
                 <version>${neatlogic.autoexec}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-cmdb</artifactId>
                 <version>${neatlogic.cmdb}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-tagent</artifactId>
                 <version>${neatlogic.tagent}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-inspect</artifactId>
                 <version>${neatlogic.inspect}</version>
             </dependency>
             <dependency>
-                <groupId>com.techsure</groupId>
+                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-deploy</artifactId>
                 <version>${neatlogic.deploy}</version>
             </dependency>
@@ -931,7 +931,7 @@
                 <version>2.3.2</version>
             </dependency>-->
         <!--<dependency>
-            <groupId>com.techsure</groupId>
+            <groupId>com.neatlogic</groupId>
             <artifactId>kaptcha</artifactId>
             <version>2.3.2</version>
         </dependency>-->
