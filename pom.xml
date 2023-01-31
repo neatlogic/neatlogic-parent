@@ -7,8 +7,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.techsure</groupId>
-    <artifactId>codedriver-parent</artifactId>
-    <version>2.0.29</version>
+    <artifactId>neatlogic-parent</artifactId>
+    <version>3.0.0</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -23,67 +23,67 @@
         <profile>
             <id>develop</id>
             <properties>
-                <codedriver.autoexec>0.2.1.0-SNAPSHOT</codedriver.autoexec>
-                <codedriver.autoexec.base>0.2.1.0-SNAPSHOT</codedriver.autoexec.base>
-                <codedriver.change>0.2.1.0-SNAPSHOT</codedriver.change>
-                <codedriver.change.base>2.0.1</codedriver.change.base>
-                <codedriver.cmdb>0.2.1.0-SNAPSHOT</codedriver.cmdb>
-                <codedriver.cmdb.base>0.2.1.0-SNAPSHOT</codedriver.cmdb.base>
-                <codedriver.dashboard>2.0.3</codedriver.dashboard>
-                <codedriver.dashboard.base>2.0.1</codedriver.dashboard.base>
-                <codedriver.deploy>0.2.1.0-SNAPSHOT</codedriver.deploy>
-                <codedriver.deploy.base>0.2.1.0-SNAPSHOT</codedriver.deploy.base>
-                <codedriver.event>0.2.1.0-SNAPSHOT</codedriver.event>
-                <codedriver.event.base>2.0.1</codedriver.event.base>
-                <codedriver.framework>0.2.1.0-SNAPSHOT</codedriver.framework>
-                <codedriver.inspect>0.2.1.0-SNAPSHOT</codedriver.inspect>
-                <codedriver.inspect.base>0.2.1.0-SNAPSHOT</codedriver.inspect.base>
-                <codedriver.knowledge>2.0.1</codedriver.knowledge>
-                <codedriver.knowledge.base>2.0.1</codedriver.knowledge.base>
-                <codedriver.master>0.2.1.0-SNAPSHOT</codedriver.master>
-                <codedriver.pbc>2.0.1</codedriver.pbc>
-                <codedriver.process>0.2.1.0-SNAPSHOT</codedriver.process>
-                <codedriver.process.base>0.2.1.0-SNAPSHOT</codedriver.process.base>
-                <codedriver.rdm>0.2.0.0-SNAPSHOT</codedriver.rdm>
-                <codedriver.rdm.base>0.2.0.0-SNAPSHOT</codedriver.rdm.base>
-                <codedriver.report>2.0.1</codedriver.report>
-                <codedriver.report.base>2.0.1</codedriver.report.base>
-                <codedriver.tagent>2.0.2</codedriver.tagent>
-                <codedriver.tagent.base>2.0.1</codedriver.tagent.base>
-                <codedriver.tenant>0.2.1.0-SNAPSHOT</codedriver.tenant>
+                <neatlogic.autoexec>3.0.0</neatlogic.autoexec>
+                <neatlogic.autoexec.base>3.0.0</neatlogic.autoexec.base>
+                <neatlogic.change>3.0.0</neatlogic.change>
+                <neatlogic.change.base>3.0.0</neatlogic.change.base>
+                <neatlogic.cmdb>3.0.0</neatlogic.cmdb>
+                <neatlogic.cmdb.base>3.0.0</neatlogic.cmdb.base>
+                <neatlogic.dashboard>3.0.0</neatlogic.dashboard>
+                <neatlogic.dashboard.base>3.0.0</neatlogic.dashboard.base>
+                <neatlogic.deploy>3.0.0</neatlogic.deploy>
+                <neatlogic.deploy.base>3.0.0</neatlogic.deploy.base>
+                <neatlogic.event>3.0.0</neatlogic.event>
+                <neatlogic.event.base>3.0.0</neatlogic.event.base>
+                <neatlogic.framework>3.0.0</neatlogic.framework>
+                <neatlogic.inspect>3.0.0</neatlogic.inspect>
+                <neatlogic.inspect.base>3.0.0</neatlogic.inspect.base>
+                <neatlogic.knowledge>3.0.0</neatlogic.knowledge>
+                <neatlogic.knowledge.base>3.0.0</neatlogic.knowledge.base>
+                <neatlogic.master>3.0.0</neatlogic.master>
+                <neatlogic.pbc>3.0.0</neatlogic.pbc>
+                <neatlogic.process>3.0.0</neatlogic.process>
+                <neatlogic.process.base>3.0.0</neatlogic.process.base>
+                <neatlogic.rdm>3.0.0</neatlogic.rdm>
+                <neatlogic.rdm.base>3.0.0</neatlogic.rdm.base>
+                <neatlogic.report>3.0.0</neatlogic.report>
+                <neatlogic.report.base>3.0.0</neatlogic.report.base>
+                <neatlogic.tagent>3.0.0</neatlogic.tagent>
+                <neatlogic.tagent.base>3.0.0</neatlogic.tagent.base>
+                <neatlogic.tenant>3.0.0</neatlogic.tenant>
             </properties>
         </profile>
         <profile>
             <id>release</id>
             <properties>
-                <codedriver.autoexec>2.0.5</codedriver.autoexec>
-                <codedriver.autoexec.base>2.0.2</codedriver.autoexec.base>
-                <codedriver.change>2.0.1</codedriver.change>
-                <codedriver.change.base>2.0.1</codedriver.change.base>
-                <codedriver.cmdb>2.0.7</codedriver.cmdb>
-                <codedriver.cmdb.base>2.0.1</codedriver.cmdb.base>
-                <codedriver.dashboard>2.0.3</codedriver.dashboard>
-                <codedriver.dashboard.base>2.0.1</codedriver.dashboard.base>
-                <codedriver.deploy>2.0.3</codedriver.deploy>
-                <codedriver.deploy.base>2.0.2</codedriver.deploy.base>
-                <codedriver.event>2.0.1</codedriver.event>
-                <codedriver.event.base>2.0.1</codedriver.event.base>
-                <codedriver.framework>2.0.2</codedriver.framework>
-                <codedriver.inspect>2.0.2</codedriver.inspect>
-                <codedriver.inspect.base>2.0.2</codedriver.inspect.base>
-                <codedriver.knowledge>2.0.1</codedriver.knowledge>
-                <codedriver.knowledge.base>2.0.1</codedriver.knowledge.base>
-                <codedriver.master>2.0.1</codedriver.master>
-                <codedriver.pbc>2.0.1</codedriver.pbc>
-                <codedriver.process>2.0.2</codedriver.process>
-                <codedriver.process.base>2.0.1</codedriver.process.base>
-                <codedriver.rdm>0.2.0.0-SNAPSHOT</codedriver.rdm>
-                <codedriver.rdm.base>0.2.0.0-SNAPSHOT</codedriver.rdm.base>
-                <codedriver.report>2.0.1</codedriver.report>
-                <codedriver.report.base>2.0.1</codedriver.report.base>
-                <codedriver.tagent>2.0.2</codedriver.tagent>
-                <codedriver.tagent.base>2.0.1</codedriver.tagent.base>
-                <codedriver.tenant>2.0.2</codedriver.tenant>
+                <neatlogic.autoexec>3.0.0</neatlogic.autoexec>
+                <neatlogic.autoexec.base>3.0.0</neatlogic.autoexec.base>
+                <neatlogic.change>3.0.0</neatlogic.change>
+                <neatlogic.change.base>3.0.0</neatlogic.change.base>
+                <neatlogic.cmdb>3.0.0</neatlogic.cmdb>
+                <neatlogic.cmdb.base>3.0.0</neatlogic.cmdb.base>
+                <neatlogic.dashboard>3.0.0</neatlogic.dashboard>
+                <neatlogic.dashboard.base>3.0.0</neatlogic.dashboard.base>
+                <neatlogic.deploy>3.0.0</neatlogic.deploy>
+                <neatlogic.deploy.base>3.0.0</neatlogic.deploy.base>
+                <neatlogic.event>3.0.0</neatlogic.event>
+                <neatlogic.event.base>3.0.0</neatlogic.event.base>
+                <neatlogic.framework>3.0.0</neatlogic.framework>
+                <neatlogic.inspect>3.0.0</neatlogic.inspect>
+                <neatlogic.inspect.base>3.0.0</neatlogic.inspect.base>
+                <neatlogic.knowledge>3.0.0</neatlogic.knowledge>
+                <neatlogic.knowledge.base>3.0.0</neatlogic.knowledge.base>
+                <neatlogic.master>3.0.0</neatlogic.master>
+                <neatlogic.pbc>3.0.0</neatlogic.pbc>
+                <neatlogic.process>3.0.0</neatlogic.process>
+                <neatlogic.process.base>3.0.0</neatlogic.process.base>
+                <neatlogic.rdm>3.0.0</neatlogic.rdm>
+                <neatlogic.rdm.base>3.0.0</neatlogic.rdm.base>
+                <neatlogic.report>3.0.0</neatlogic.report>
+                <neatlogic.report.base>3.0.0</neatlogic.report.base>
+                <neatlogic.tagent>3.0.0</neatlogic.tagent>
+                <neatlogic.tagent.base>3.0.0</neatlogic.tagent.base>
+                <neatlogic.tenant>3.0.0</neatlogic.tenant>
             </properties>
         </profile>
     </profiles>
@@ -92,143 +92,143 @@
         <dependencies>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-framework</artifactId>
-                <version>${codedriver.framework}</version>
+                <artifactId>neatlogic-framework</artifactId>
+                <version>${neatlogic.framework}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-change-base</artifactId>
-                <version>${codedriver.change.base}</version>
+                <artifactId>neatlogic-change-base</artifactId>
+                <version>${neatlogic.change.base}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-autoexec-base</artifactId>
-                <version>${codedriver.autoexec.base}</version>
+                <artifactId>neatlogic-autoexec-base</artifactId>
+                <version>${neatlogic.autoexec.base}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-process-base</artifactId>
-                <version>${codedriver.process.base}</version>
+                <artifactId>neatlogic-process-base</artifactId>
+                <version>${neatlogic.process.base}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-deploy-base</artifactId>
-                <version>${codedriver.deploy.base}</version>
+                <artifactId>neatlogic-deploy-base</artifactId>
+                <version>${neatlogic.deploy.base}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-cmdb-base</artifactId>
-                <version>${codedriver.cmdb.base}</version>
+                <artifactId>neatlogic-cmdb-base</artifactId>
+                <version>${neatlogic.cmdb.base}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-dashboard-base</artifactId>
-                <version>${codedriver.dashboard.base}</version>
+                <artifactId>neatlogic-dashboard-base</artifactId>
+                <version>${neatlogic.dashboard.base}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-event-base</artifactId>
-                <version>${codedriver.event.base}</version>
+                <artifactId>neatlogic-event-base</artifactId>
+                <version>${neatlogic.event.base}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-inspect-base</artifactId>
-                <version>${codedriver.inspect.base}</version>
+                <artifactId>neatlogic-inspect-base</artifactId>
+                <version>${neatlogic.inspect.base}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-knowledge-base</artifactId>
-                <version>${codedriver.knowledge.base}</version>
+                <artifactId>neatlogic-knowledge-base</artifactId>
+                <version>${neatlogic.knowledge.base}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-report-base</artifactId>
-                <version>${codedriver.report.base}</version>
+                <artifactId>neatlogic-report-base</artifactId>
+                <version>${neatlogic.report.base}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-tagent-base</artifactId>
-                <version>${codedriver.tagent.base}</version>
+                <artifactId>neatlogic-tagent-base</artifactId>
+                <version>${neatlogic.tagent.base}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-pbc</artifactId>
-                <version>${codedriver.pbc}</version>
+                <artifactId>neatlogic-pbc</artifactId>
+                <version>${neatlogic.pbc}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-tenant</artifactId>
-                <version>${codedriver.tenant}</version>
+                <artifactId>neatlogic-tenant</artifactId>
+                <version>${neatlogic.tenant}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-dashboard</artifactId>
-                <version>${codedriver.dashboard}</version>
+                <artifactId>neatlogic-dashboard</artifactId>
+                <version>${neatlogic.dashboard}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-process</artifactId>
-                <version>${codedriver.process}</version>
+                <artifactId>neatlogic-process</artifactId>
+                <version>${neatlogic.process}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-rdm</artifactId>
-                <version>${codedriver.rdm}</version>
+                <artifactId>neatlogic-rdm</artifactId>
+                <version>${neatlogic.rdm}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-rdm-base</artifactId>
-                <version>${codedriver.rdm.base}</version>
+                <artifactId>neatlogic-rdm-base</artifactId>
+                <version>${neatlogic.rdm.base}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-master</artifactId>
-                <version>${codedriver.master}</version>
+                <artifactId>neatlogic-master</artifactId>
+                <version>${neatlogic.master}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-change</artifactId>
-                <version>${codedriver.change}</version>
+                <artifactId>neatlogic-change</artifactId>
+                <version>${neatlogic.change}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-report</artifactId>
-                <version>${codedriver.report}</version>
+                <artifactId>neatlogic-report</artifactId>
+                <version>${neatlogic.report}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-event</artifactId>
-                <version>${codedriver.event}</version>
+                <artifactId>neatlogic-event</artifactId>
+                <version>${neatlogic.event}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-knowledge</artifactId>
-                <version>${codedriver.knowledge}</version>
+                <artifactId>neatlogic-knowledge</artifactId>
+                <version>${neatlogic.knowledge}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-autoexec</artifactId>
-                <version>${codedriver.autoexec}</version>
+                <artifactId>neatlogic-autoexec</artifactId>
+                <version>${neatlogic.autoexec}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-cmdb</artifactId>
-                <version>${codedriver.cmdb}</version>
+                <artifactId>neatlogic-cmdb</artifactId>
+                <version>${neatlogic.cmdb}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-tagent</artifactId>
-                <version>${codedriver.tagent}</version>
+                <artifactId>neatlogic-tagent</artifactId>
+                <version>${neatlogic.tagent}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-inspect</artifactId>
-                <version>${codedriver.inspect}</version>
+                <artifactId>neatlogic-inspect</artifactId>
+                <version>${neatlogic.inspect}</version>
             </dependency>
             <dependency>
                 <groupId>com.techsure</groupId>
-                <artifactId>codedriver-deploy</artifactId>
-                <version>${codedriver.deploy}</version>
+                <artifactId>neatlogic-deploy</artifactId>
+                <version>${neatlogic.deploy}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
