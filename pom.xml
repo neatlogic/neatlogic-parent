@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.7</version>
+    <version>3.0.8</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -35,7 +35,7 @@
             <id>develop</id>
             <properties>
                 <neatlogic.autoexec>0.3.1.0-SNAPSHOT</neatlogic.autoexec>
-                <neatlogic.autoexec.base>3.0.0</neatlogic.autoexec.base>
+                <neatlogic.autoexec.base>0.3.1.0-SNAPSHOT</neatlogic.autoexec.base>
                 <neatlogic.change>3.0.0</neatlogic.change>
                 <neatlogic.change.base>3.0.0</neatlogic.change.base>
                 <neatlogic.cmdb>0.3.1.0-SNAPSHOT</neatlogic.cmdb>
