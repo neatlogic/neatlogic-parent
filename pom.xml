@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.5</version>
+    <version>3.0.6</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -42,7 +42,7 @@
                 <neatlogic.cmdb.base>3.0.0</neatlogic.cmdb.base>
                 <neatlogic.dashboard>3.0.0</neatlogic.dashboard>
                 <neatlogic.dashboard.base>3.0.0</neatlogic.dashboard.base>
-                <neatlogic.deploy>3.0.0</neatlogic.deploy>
+                <neatlogic.deploy>0.3.1.0-SNAPSHOT</neatlogic.deploy>
                 <neatlogic.deploy.base>3.0.0</neatlogic.deploy.base>
                 <neatlogic.event>3.0.0</neatlogic.event>
                 <neatlogic.event.base>3.0.0</neatlogic.event.base>
