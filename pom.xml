@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.9</version>
+    <version>3.0.10</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -61,7 +61,7 @@
                 <neatlogic.report.base>3.0.0</neatlogic.report.base>
                 <neatlogic.tagent>3.0.0</neatlogic.tagent>
                 <neatlogic.tagent.base>3.0.0</neatlogic.tagent.base>
-                <neatlogic.tenant>3.0.0</neatlogic.tenant>
+                <neatlogic.tenant>0.3.1.0-SNAPSHOT</neatlogic.tenant>
             </properties>
         </profile>
         <profile>
