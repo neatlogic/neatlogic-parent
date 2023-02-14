@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.12</version>
+    <version>3.0.13</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -47,7 +47,7 @@
                 <neatlogic.event>0.3.1.0-SNAPSHOT</neatlogic.event>
                 <neatlogic.event.base>3.0.0</neatlogic.event.base>
                 <neatlogic.framework>0.3.1.0-SNAPSHOT</neatlogic.framework>
-                <neatlogic.inspect>3.0.0</neatlogic.inspect>
+                <neatlogic.inspect>0.3.1.0-SNAPSHOT</neatlogic.inspect>
                 <neatlogic.inspect.base>3.0.0</neatlogic.inspect.base>
                 <neatlogic.knowledge>3.0.0</neatlogic.knowledge>
                 <neatlogic.knowledge.base>3.0.0</neatlogic.knowledge.base>
