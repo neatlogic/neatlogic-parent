@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.14</version>
+    <version>3.0.15</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -45,10 +45,10 @@
                 <neatlogic.deploy>0.3.1.0-SNAPSHOT</neatlogic.deploy>
                 <neatlogic.deploy.base>0.3.1.0-SNAPSHOT</neatlogic.deploy.base>
                 <neatlogic.event>0.3.1.0-SNAPSHOT</neatlogic.event>
-                <neatlogic.event.base>3.0.0</neatlogic.event.base>
+                <neatlogic.event.base>0.3.1.0-SNAPSHOT</neatlogic.event.base>
                 <neatlogic.framework>0.3.1.0-SNAPSHOT</neatlogic.framework>
                 <neatlogic.inspect>0.3.1.0-SNAPSHOT</neatlogic.inspect>
-                <neatlogic.inspect.base>3.0.0</neatlogic.inspect.base>
+                <neatlogic.inspect.base>0.3.1.0-SNAPSHOT</neatlogic.inspect.base>
                 <neatlogic.knowledge>3.0.0</neatlogic.knowledge>
                 <neatlogic.knowledge.base>3.0.0</neatlogic.knowledge.base>
                 <neatlogic.master>0.3.1.0-SNAPSHOT</neatlogic.master>
@@ -57,8 +57,8 @@
                 <neatlogic.process.base>0.3.1.0-SNAPSHOT</neatlogic.process.base>
                 <neatlogic.rdm>3.0.0</neatlogic.rdm>
                 <neatlogic.rdm.base>3.0.0</neatlogic.rdm.base>
-                <neatlogic.report>3.0.0</neatlogic.report>
-                <neatlogic.report.base>3.0.0</neatlogic.report.base>
+                <neatlogic.report>0.3.1.0-SNAPSHOT</neatlogic.report>
+                <neatlogic.report.base>0.3.1.0-SNAPSHOT</neatlogic.report.base>
                 <neatlogic.tagent>0.3.1.0-SNAPSHOT</neatlogic.tagent>
                 <neatlogic.tagent.base>0.3.1.0-SNAPSHOT</neatlogic.tagent.base>
                 <neatlogic.tenant>0.3.1.0-SNAPSHOT</neatlogic.tenant>
