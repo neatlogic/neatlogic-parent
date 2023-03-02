@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.15</version>
+    <version>3.0.16</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -37,11 +37,11 @@
                 <neatlogic.autoexec>0.3.1.0-SNAPSHOT</neatlogic.autoexec>
                 <neatlogic.autoexec.base>0.3.1.0-SNAPSHOT</neatlogic.autoexec.base>
                 <neatlogic.change>0.3.1.0-SNAPSHOT</neatlogic.change>
-                <neatlogic.change.base>3.0.0</neatlogic.change.base>
+                <neatlogic.change.base>0.3.1.0-SNAPSHOT</neatlogic.change.base>
                 <neatlogic.cmdb>0.3.1.0-SNAPSHOT</neatlogic.cmdb>
                 <neatlogic.cmdb.base>0.3.1.0-SNAPSHOT</neatlogic.cmdb.base>
-                <neatlogic.dashboard>3.0.0</neatlogic.dashboard>
-                <neatlogic.dashboard.base>3.0.0</neatlogic.dashboard.base>
+                <neatlogic.dashboard>0.3.1.0-SNAPSHOT</neatlogic.dashboard>
+                <neatlogic.dashboard.base>0.3.1.0-SNAPSHOT</neatlogic.dashboard.base>
                 <neatlogic.deploy>0.3.1.0-SNAPSHOT</neatlogic.deploy>
                 <neatlogic.deploy.base>0.3.1.0-SNAPSHOT</neatlogic.deploy.base>
                 <neatlogic.event>0.3.1.0-SNAPSHOT</neatlogic.event>
@@ -49,14 +49,14 @@
                 <neatlogic.framework>0.3.1.0-SNAPSHOT</neatlogic.framework>
                 <neatlogic.inspect>0.3.1.0-SNAPSHOT</neatlogic.inspect>
                 <neatlogic.inspect.base>0.3.1.0-SNAPSHOT</neatlogic.inspect.base>
-                <neatlogic.knowledge>3.0.0</neatlogic.knowledge>
-                <neatlogic.knowledge.base>3.0.0</neatlogic.knowledge.base>
+                <neatlogic.knowledge>0.3.1.0-SNAPSHOT</neatlogic.knowledge>
+                <neatlogic.knowledge.base>0.3.1.0-SNAPSHOT</neatlogic.knowledge.base>
                 <neatlogic.master>0.3.1.0-SNAPSHOT</neatlogic.master>
                 <neatlogic.pbc>0.3.1.0-SNAPSHOT</neatlogic.pbc>
                 <neatlogic.process>0.3.1.0-SNAPSHOT</neatlogic.process>
                 <neatlogic.process.base>0.3.1.0-SNAPSHOT</neatlogic.process.base>
-                <neatlogic.rdm>3.0.0</neatlogic.rdm>
-                <neatlogic.rdm.base>3.0.0</neatlogic.rdm.base>
+                <neatlogic.rdm>0.3.1.0-SNAPSHOT</neatlogic.rdm>
+                <neatlogic.rdm.base>0.3.1.0-SNAPSHOT</neatlogic.rdm.base>
                 <neatlogic.report>0.3.1.0-SNAPSHOT</neatlogic.report>
                 <neatlogic.report.base>0.3.1.0-SNAPSHOT</neatlogic.report.base>
                 <neatlogic.tagent>0.3.1.0-SNAPSHOT</neatlogic.tagent>
