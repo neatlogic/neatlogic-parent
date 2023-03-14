@@ -53,8 +53,8 @@
                 <neatlogic.knowledge.base>0.3.0.0-SNAPSHOT</neatlogic.knowledge.base>
                 <neatlogic.master>0.3.0.0-SNAPSHOT</neatlogic.master>
                 <neatlogic.pbc>0.3.0.0-SNAPSHOT</neatlogic.pbc>
-                <neatlogic.process>0.3.0.0-SNAPSHOT</neatlogic.process>
-                <neatlogic.process.base>0.3.0.0-SNAPSHOT</neatlogic.process.base>
+                <neatlogic.itsm>0.3.0.0-SNAPSHOT</neatlogic.itsm>
+                <neatlogic.itsm.base>0.3.0.0-SNAPSHOT</neatlogic.itsm.base>
                 <neatlogic.rdm>0.3.0.0-SNAPSHOT</neatlogic.rdm>
                 <neatlogic.rdm.base>0.3.0.0-SNAPSHOT</neatlogic.rdm.base>
                 <neatlogic.report>0.3.0.0-SNAPSHOT</neatlogic.report>
@@ -86,8 +86,8 @@
                 <neatlogic.knowledge.base>3.0.0</neatlogic.knowledge.base>
                 <neatlogic.master>3.0.0</neatlogic.master>
                 <neatlogic.pbc>3.0.0</neatlogic.pbc>
-                <neatlogic.process>3.0.0</neatlogic.process>
-                <neatlogic.process.base>3.0.0</neatlogic.process.base>
+                <neatlogic.itsm>3.0.0</neatlogic.itsm>
+                <neatlogic.itsm.base>3.0.0</neatlogic.itsm.base>
                 <neatlogic.rdm>3.0.0</neatlogic.rdm>
                 <neatlogic.rdm.base>3.0.0</neatlogic.rdm.base>
                 <neatlogic.report>3.0.0</neatlogic.report>
@@ -118,8 +118,8 @@
             </dependency>
             <dependency>
                 <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-process-base</artifactId>
-                <version>${neatlogic.process.base}</version>
+                <artifactId>neatlogic-itsm-base</artifactId>
+                <version>${neatlogic.itsm.base}</version>
             </dependency>
             <dependency>
                 <groupId>com.neatlogic</groupId>
@@ -178,8 +178,8 @@
             </dependency>
             <dependency>
                 <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-process</artifactId>
-                <version>${neatlogic.process}</version>
+                <artifactId>neatlogic-itsm</artifactId>
+                <version>${neatlogic.itsm}</version>
             </dependency>
             <dependency>
                 <groupId>com.neatlogic</groupId>
