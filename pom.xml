@@ -569,7 +569,7 @@
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-mongodb</artifactId>
-            <version>3.4.0</version>
+            <version>3.4.1</version>
         </dependency>
         <dependency>
             <groupId>org.mongodb</groupId>
@@ -951,6 +951,7 @@
             <artifactId>easy-captcha</artifactId>
             <version>1.6.2</version>
         </dependency>
+
 
     </dependencies>
 </project>
