@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.22</version>
+    <version>3.0.23</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -275,7 +275,7 @@
     <distributionManagement>
         <snapshotRepository>
             <id>nexus-snapshot</id>
-            <url>http://192.168.0.88:9008/nexus/content/repositories/neatlogic-Snapshot</url>
+            <url>http://192.168.0.88:9008/nexus/content/repositories/neatlogic-snapshot</url>
         </snapshotRepository>
         <repository>
             <id>nexus-release</id>
