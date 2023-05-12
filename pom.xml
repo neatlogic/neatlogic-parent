@@ -275,11 +275,11 @@
     <distributionManagement>
         <snapshotRepository>
             <id>nexus-snapshot</id>
-            <url>http://192.168.0.88:9008/nexus/content/repositories/techsure-Snapshot</url>
+            <url>http://192.168.0.88:9008/nexus/content/repositories/neatlogic-Snapshot</url>
         </snapshotRepository>
         <repository>
             <id>nexus-release</id>
-            <url>http://192.168.0.88:9008/nexus/content/repositories/techsure-release</url>
+            <url>http://192.168.0.88:9008/nexus/content/repositories/neatlogic-release</url>
         </repository>
     </distributionManagement>
     <dependencies>
@@ -692,11 +692,6 @@
                     <groupId>org.slf4j</groupId>
                 </exclusion>
             </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>com.techsure</groupId>
-            <artifactId>passwd</artifactId>
-            <version>0.1</version>
         </dependency>
         <dependency>
             <groupId>com.belerweb</groupId>
