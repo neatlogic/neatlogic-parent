@@ -913,7 +913,6 @@
                     <artifactId>lucene-core</artifactId>
                 </exclusion>
             </exclusions>
-            <!--<version>8.1.0.techsure</version>-->
         </dependency>
         <dependency>
             <groupId>org.apache.activemq</groupId>
