@@ -181,7 +181,7 @@
                 <artifactId>neatlogic-itsm</artifactId>
                 <version>${neatlogic.itsm}</version>
             </dependency>
-            <dependency>
+            <!--<dependency>
                 <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-rdm</artifactId>
                 <version>${neatlogic.rdm}</version>
@@ -195,7 +195,7 @@
                 <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-master</artifactId>
                 <version>${neatlogic.master}</version>
-            </dependency>
+            </dependency>-->
             <dependency>
                 <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-change</artifactId>
