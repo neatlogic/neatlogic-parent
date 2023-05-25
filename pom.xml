@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.26</version>
+    <version>3.0.27</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -887,7 +887,7 @@
             <artifactId>jackson-annotations</artifactId>
             <version>${jackson.version}</version>
         </dependency>
-
+        <!--全文检索高亮关键字用-->
         <dependency>
             <groupId>net.sf.jtidy</groupId>
             <artifactId>jtidy</artifactId>
@@ -918,12 +918,6 @@
             <groupId>com.github.jsqlparser</groupId>
             <artifactId>jsqlparser</artifactId>
             <version>4.4</version>
-        </dependency>
-        <dependency>
-            <groupId>org</groupId>
-            <artifactId>jtidy-r938</artifactId>
-            <version>1.0</version>
-            <!--全文检索高亮关键字用-->
         </dependency>
         <dependency>
             <groupId>org.antlr</groupId>
