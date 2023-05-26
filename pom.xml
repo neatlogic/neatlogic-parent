@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.27</version>
+    <version>3.0.28</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -62,6 +62,8 @@
                 <neatlogic.tagent>0.3.0.0-SNAPSHOT</neatlogic.tagent>
                 <neatlogic.tagent.base>0.3.0.0-SNAPSHOT</neatlogic.tagent.base>
                 <neatlogic.tenant>0.3.0.0-SNAPSHOT</neatlogic.tenant>
+                <neatlogic.codehub.base>0.3.0.0-SNAPSHOT</neatlogic.codehub.base>
+                <neatlogic.codehub>0.3.0.0-SNAPSHOT</neatlogic.codehub>
             </properties>
         </profile>
         <profile>
@@ -181,7 +183,7 @@
                 <artifactId>neatlogic-itsm</artifactId>
                 <version>${neatlogic.itsm}</version>
             </dependency>
-            <!--<dependency>
+            <dependency>
                 <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-rdm</artifactId>
                 <version>${neatlogic.rdm}</version>
@@ -195,7 +197,17 @@
                 <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-master</artifactId>
                 <version>${neatlogic.master}</version>
-            </dependency>-->
+            </dependency>
+            <dependency>
+                <groupId>com.neatlogic</groupId>
+                <artifactId>neatlogic-codehub</artifactId>
+                <version>${neatlogic.codehub}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.neatlogic</groupId>
+                <artifactId>neatlogic-codehub-base</artifactId>
+                <version>${neatlogic.codehub.base}</version>
+            </dependency>
             <dependency>
                 <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-change</artifactId>
