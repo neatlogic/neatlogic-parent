@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.30</version>
+    <version>3.0.31</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -64,6 +64,7 @@
                 <neatlogic.tenant>0.3.0.0-SNAPSHOT</neatlogic.tenant>
                 <neatlogic.codehub.base>0.3.0.0-SNAPSHOT</neatlogic.codehub.base>
                 <neatlogic.codehub>0.3.0.0-SNAPSHOT</neatlogic.codehub>
+                <neatlogic.documentonline>0.3.0.0-SNAPSHOT</neatlogic.documentonline>
             </properties>
         </profile>
         <profile>
@@ -252,6 +253,11 @@
                 <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-deploy</artifactId>
                 <version>${neatlogic.deploy}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.neatlogic</groupId>
+                <artifactId>neatlogic-document-online</artifactId>
+                <version>${neatlogic.documentonline}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
