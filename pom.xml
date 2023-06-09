@@ -257,8 +257,8 @@
             <!--<dependency>
                 <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-document-online</artifactId>
-                <version>${neatlogic.documentonline}</version>-->
-            </dependency>
+                <version>${neatlogic.documentonline}</version>
+            </dependency>-->
         </dependencies>
     </dependencyManagement>
     <build>
