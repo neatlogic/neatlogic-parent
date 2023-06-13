@@ -119,13 +119,13 @@
                     </dependency>
                     <dependency>
                         <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-codehub</artifactId>
-                        <version>${neatlogic.codehub}</version>
+                        <artifactId>neatlogic-codehub-base</artifactId>
+                        <version>${neatlogic.codehub.base}</version>
                     </dependency>
                     <dependency>
                         <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-codehub-base</artifactId>
-                        <version>${neatlogic.codehub.base}</version>
+                        <artifactId>neatlogic-codehub</artifactId>
+                        <version>${neatlogic.codehub}</version>
                     </dependency>
                 </dependencies>
             </dependencyManagement>
