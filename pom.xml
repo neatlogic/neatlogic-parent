@@ -32,6 +32,7 @@
     </properties>
     <profiles>
         <profile>
+            <!--用于管理研发分支的版本号-->
             <id>develop</id>
             <properties>
                 <neatlogic.autoexec>0.3.0.0-SNAPSHOT</neatlogic.autoexec>
@@ -68,6 +69,7 @@
             </properties>
         </profile>
         <profile>
+            <!--用于管理发布分支的版本号-->
             <id>release</id>
             <properties>
                 <neatlogic.autoexec>3.0.0</neatlogic.autoexec>
@@ -99,6 +101,34 @@
                 <neatlogic.tagent.base>3.0.0</neatlogic.tagent.base>
                 <neatlogic.tenant>3.0.0</neatlogic.tenant>
             </properties>
+        </profile>
+        <profile>
+            <!--用于管理商业版的依赖模块-->
+            <id>commercial</id>
+            <dependencyManagement>
+                <dependencies>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-master</artifactId>
+                        <version>${neatlogic.master}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-document-online</artifactId>
+                        <version>${neatlogic.documentonline}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-codehub</artifactId>
+                        <version>${neatlogic.codehub}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-codehub-base</artifactId>
+                        <version>${neatlogic.codehub.base}</version>
+                    </dependency>
+                </dependencies>
+            </dependencyManagement>
         </profile>
     </profiles>
 
@@ -196,21 +226,6 @@
             </dependency>
             <dependency>
                 <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-master</artifactId>
-                <version>${neatlogic.master}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-codehub</artifactId>
-                <version>${neatlogic.codehub}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-codehub-base</artifactId>
-                <version>${neatlogic.codehub.base}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-change</artifactId>
                 <version>${neatlogic.change}</version>
             </dependency>
@@ -254,11 +269,6 @@
                 <artifactId>neatlogic-deploy</artifactId>
                 <version>${neatlogic.deploy}</version>
             </dependency>
-            <!--<dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-document-online</artifactId>
-                <version>${neatlogic.documentonline}</version>
-            </dependency>-->
         </dependencies>
     </dependencyManagement>
     <build>
