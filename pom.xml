@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.33</version>
+    <version>3.0.34</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -65,6 +65,7 @@
                 <neatlogic.tenant>0.3.0.0-SNAPSHOT</neatlogic.tenant>
                 <neatlogic.codehub.base>0.3.0.0-SNAPSHOT</neatlogic.codehub.base>
                 <neatlogic.codehub>0.3.0.0-SNAPSHOT</neatlogic.codehub>
+                <neatlogic.rdm.commercial>0.3.0.0-SNAPSHOT</neatlogic.rdm.commercial>
                 <neatlogic.documentonline>0.3.0.0-SNAPSHOT</neatlogic.documentonline>
             </properties>
         </profile>
@@ -126,6 +127,11 @@
                         <groupId>com.neatlogic</groupId>
                         <artifactId>neatlogic-codehub</artifactId>
                         <version>${neatlogic.codehub}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-rdm-commercial</artifactId>
+                        <version>${neatlogic.rdm.commercial}</version>
                     </dependency>
                 </dependencies>
             </dependencyManagement>
@@ -980,6 +986,11 @@
             <artifactId>commonmark</artifactId>
             <version>0.17.0</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-core</artifactId>
+            <version>9.0.27</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 </project>
