@@ -67,6 +67,7 @@
                 <neatlogic.codehub>0.3.0.0-SNAPSHOT</neatlogic.codehub>
                 <neatlogic.rdm.commercial>0.3.0.0-SNAPSHOT</neatlogic.rdm.commercial>
                 <neatlogic.documentonline>0.3.0.0-SNAPSHOT</neatlogic.documentonline>
+                <neatlogic.documentonline.commercial>0.3.0.0-SNAPSHOT</neatlogic.documentonline.commercial>
             </properties>
         </profile>
         <profile>
@@ -117,6 +118,11 @@
                         <groupId>com.neatlogic</groupId>
                         <artifactId>neatlogic-document-online</artifactId>
                         <version>${neatlogic.documentonline}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-document-online-commercial</artifactId>
+                        <version>${neatlogic.documentonline.commercial}</version>
                     </dependency>
                     <dependency>
                         <groupId>com.neatlogic</groupId>
