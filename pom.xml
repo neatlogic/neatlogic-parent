@@ -116,11 +116,6 @@
                     </dependency>
                     <dependency>
                         <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-document-online</artifactId>
-                        <version>${neatlogic.documentonline}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
                         <artifactId>neatlogic-document-online-commercial</artifactId>
                         <version>${neatlogic.documentonline.commercial}</version>
                     </dependency>
@@ -280,6 +275,11 @@
                 <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-deploy</artifactId>
                 <version>${neatlogic.deploy}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.neatlogic</groupId>
+                <artifactId>neatlogic-document-online</artifactId>
+                <version>${neatlogic.documentonline}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
