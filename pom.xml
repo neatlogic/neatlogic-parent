@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.36</version>
+    <version>3.0.37</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -66,6 +66,7 @@
                 <neatlogic.codehub.base>0.3.0.0-SNAPSHOT</neatlogic.codehub.base>
                 <neatlogic.codehub>0.3.0.0-SNAPSHOT</neatlogic.codehub>
                 <neatlogic.rdm.commercial>0.3.0.0-SNAPSHOT</neatlogic.rdm.commercial>
+                <neatlogic.cmdb.commercial>0.3.0.0-SNAPSHOT</neatlogic.cmdb.commercial>
                 <neatlogic.documentonline>0.3.0.0-SNAPSHOT</neatlogic.documentonline>
                 <neatlogic.documentonline.commercial>0.3.0.0-SNAPSHOT</neatlogic.documentonline.commercial>
             </properties>
@@ -133,6 +134,11 @@
                         <groupId>com.neatlogic</groupId>
                         <artifactId>neatlogic-rdm-commercial</artifactId>
                         <version>${neatlogic.rdm.commercial}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-cmdb-commercial</artifactId>
+                        <version>${neatlogic.cmdb.commercial}</version>
                     </dependency>
                 </dependencies>
             </dependencyManagement>
