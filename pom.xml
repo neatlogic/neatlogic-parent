@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.37</version>
+    <version>3.0.38</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -69,6 +69,8 @@
                 <neatlogic.cmdb.commercial>0.3.0.0-SNAPSHOT</neatlogic.cmdb.commercial>
                 <neatlogic.documentonline>0.3.0.0-SNAPSHOT</neatlogic.documentonline>
                 <neatlogic.documentonline.commercial>0.3.0.0-SNAPSHOT</neatlogic.documentonline.commercial>
+                <neatlogic.dr>0.3.0.0-SNAPSHOT</neatlogic.dr>
+                <neatlogic.dr.base>0.3.0.0-SNAPSHOT</neatlogic.dr.base>
             </properties>
         </profile>
         <profile>
@@ -103,6 +105,8 @@
                 <neatlogic.tagent>3.0.0</neatlogic.tagent>
                 <neatlogic.tagent.base>3.0.0</neatlogic.tagent.base>
                 <neatlogic.tenant>3.0.0</neatlogic.tenant>
+                <neatlogic.dr>3.0.0</neatlogic.dr>
+                <neatlogic.dr.base>3.0.0</neatlogic.dr.base>
             </properties>
         </profile>
         <profile>
@@ -139,6 +143,16 @@
                         <groupId>com.neatlogic</groupId>
                         <artifactId>neatlogic-cmdb-commercial</artifactId>
                         <version>${neatlogic.cmdb.commercial}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-dr-base</artifactId>
+                        <version>${neatlogic.dr.base}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-dr</artifactId>
+                        <version>${neatlogic.dr}</version>
                     </dependency>
                 </dependencies>
             </dependencyManagement>
