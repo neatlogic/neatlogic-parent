@@ -73,6 +73,8 @@
                 <neatlogic.dr.base>0.3.0.0-SNAPSHOT</neatlogic.dr.base>
                 <neatlogic.diagram>0.3.0.0-SNAPSHOT</neatlogic.diagram>
                 <neatlogic.diagram.base>0.3.0.0-SNAPSHOT</neatlogic.diagram.base>
+                <neatlogic.eoa>0.3.0.0-SNAPSHOT</neatlogic.eoa>
+                <neatlogic.eoa.base>0.3.0.0-SNAPSHOT</neatlogic.eoa.base>
             </properties>
         </profile>
         <profile>
@@ -111,6 +113,8 @@
                 <neatlogic.dr.base>3.0.0</neatlogic.dr.base>
                 <neatlogic.diagram>3.0.0</neatlogic.diagram>
                 <neatlogic.diagram.base>3.0.0</neatlogic.diagram.base>
+                <neatlogic.eoa>3.0.0</neatlogic.eoa>
+                <neatlogic.eoa.base>3.0.0</neatlogic.eoa.base>
             </properties>
         </profile>
         <profile>
@@ -167,6 +171,16 @@
                         <groupId>com.neatlogic</groupId>
                         <artifactId>neatlogic-diagram-base</artifactId>
                         <version>${neatlogic.diagram.base}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-eoa</artifactId>
+                        <version>${neatlogic.eoa}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-eoa-base</artifactId>
+                        <version>${neatlogic.eoa.base}</version>
                     </dependency>
                 </dependencies>
             </dependencyManagement>
