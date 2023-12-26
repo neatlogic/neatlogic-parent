@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.42</version>
+    <version>3.0.43</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -166,11 +166,6 @@
                         <groupId>com.neatlogic</groupId>
                         <artifactId>neatlogic-diagram</artifactId>
                         <version>${neatlogic.diagram}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-diagram-base</artifactId>
-                        <version>${neatlogic.diagram.base}</version>
                     </dependency>
                     <dependency>
                         <groupId>com.neatlogic</groupId>
