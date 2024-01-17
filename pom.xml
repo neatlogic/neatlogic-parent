@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.44</version>
+    <version>3.0.45</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -1043,6 +1043,11 @@
             <artifactId>mysql-connector-j</artifactId>
             <version>8.0.33</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun.oss</groupId>
+            <artifactId>aliyun-sdk-oss</artifactId>
+            <version>3.17.4</version>
         </dependency>
     </dependencies>
 </project>
