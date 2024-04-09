@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.47</version>
+    <version>3.0.48</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -74,6 +74,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.diagram>0.3.0.0-SNAPSHOT</neatlogic.diagram>
                 <neatlogic.eoa>0.3.0.0-SNAPSHOT</neatlogic.eoa>
                 <neatlogic.eoa.base>0.3.0.0-SNAPSHOT</neatlogic.eoa.base>
+                <neatlogic.resources>0.3.0.0-SNAPSHOT</neatlogic.resources>
             </properties>
         </profile>
         <profile>
@@ -114,6 +115,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.diagram>3.0.0</neatlogic.diagram>
                 <neatlogic.eoa>3.0.0</neatlogic.eoa>
                 <neatlogic.eoa.base>3.0.0</neatlogic.eoa.base>
+                <neatlogic.resources>3.0.0</neatlogic.resources>
             </properties>
         </profile>
         <profile>
@@ -327,6 +329,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-document-online</artifactId>
                 <version>${neatlogic.documentonline}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.neatlogic</groupId>
+                <artifactId>neatlogic-resources</artifactId>
+                <version>${neatlogic.resources}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
