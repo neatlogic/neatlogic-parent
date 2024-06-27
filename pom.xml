@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.49</version>
+    <version>3.0.50</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -507,6 +507,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <groupId>com.zaxxer</groupId>
             <artifactId>HikariCP</artifactId>
             <version>4.0.3</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>slf4j-api</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -569,12 +575,22 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                     <artifactId>c3p0</artifactId>
                     <groupId>com.mchange</groupId>
                 </exclusion>
+                <exclusion>
+                    <artifactId>HikariCP-java7</artifactId>
+                    <groupId>com.zaxxer</groupId>
+                </exclusion>
             </exclusions>
         </dependency>
         <dependency>
             <groupId>org.quartz-scheduler</groupId>
             <artifactId>quartz-jobs</artifactId>
             <version>2.3.2</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>HikariCP-java7</artifactId>
+                    <groupId>com.zaxxer</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -671,6 +687,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-mongodb</artifactId>
             <version>3.4.1</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>slf4j-api</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.mongodb</groupId>
@@ -728,6 +750,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <groupId>net.sf.ehcache</groupId>
             <artifactId>ehcache</artifactId>
             <version>2.10.9.2</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>slf4j-api</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <!--<dependency>
             <groupId>org.mybatis.caches</groupId>
@@ -757,6 +785,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <exclusion>
                     <artifactId>dom4j</artifactId>
                     <groupId>dom4j</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>slf4j-api</artifactId>
+                    <groupId>org.slf4j</groupId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -911,6 +943,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                     <groupId>com.fasterxml.jackson.core</groupId>
                     <artifactId>jackson-databind</artifactId>
                 </exclusion>
+                <exclusion>
+                    <artifactId>slf4j-api</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>jcl-over-slf4j</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
             </exclusions>
         </dependency>
         <dependency>
@@ -1039,6 +1079,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <groupId>org.jasig.cas.client</groupId>
             <artifactId>cas-client-core</artifactId>
             <version>3.6.4</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>slf4j-api</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
 
@@ -1068,6 +1114,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <groupId>com.aliyun.oss</groupId>
             <artifactId>aliyun-sdk-oss</artifactId>
             <version>3.17.4</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>slf4j-api</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 </project>
