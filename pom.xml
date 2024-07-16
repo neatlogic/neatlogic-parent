@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.50</version>
+    <version>3.0.51</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -67,8 +67,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.codehub>0.3.0.0-SNAPSHOT</neatlogic.codehub>
                 <neatlogic.rdm.commercial>0.3.0.0-SNAPSHOT</neatlogic.rdm.commercial>
                 <neatlogic.cmdb.commercial>0.3.0.0-SNAPSHOT</neatlogic.cmdb.commercial>
-                <neatlogic.documentonline>0.3.0.0-SNAPSHOT</neatlogic.documentonline>
-                <neatlogic.documentonline.commercial>0.3.0.0-SNAPSHOT</neatlogic.documentonline.commercial>
+                <neatlogic.document.online>0.3.0.0-SNAPSHOT</neatlogic.document.online>
+                <neatlogic.document.online.commercial>0.3.0.0-SNAPSHOT</neatlogic.document.online.commercial>
                 <neatlogic.dr>0.3.0.0-SNAPSHOT</neatlogic.dr>
                 <neatlogic.dr.base>0.3.0.0-SNAPSHOT</neatlogic.dr.base>
                 <neatlogic.diagram>0.3.0.0-SNAPSHOT</neatlogic.diagram>
@@ -138,7 +138,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                     <dependency>
                         <groupId>com.neatlogic</groupId>
                         <artifactId>neatlogic-document-online-commercial</artifactId>
-                        <version>${neatlogic.documentonline.commercial}</version>
+                        <version>${neatlogic.document.online.commercial}</version>
                     </dependency>
                     <dependency>
                         <groupId>com.neatlogic</groupId>
@@ -335,7 +335,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <dependency>
                 <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-document-online</artifactId>
-                <version>${neatlogic.documentonline}</version>
+                <version>${neatlogic.document.online}</version>
             </dependency>
             <dependency>
                 <groupId>com.neatlogic</groupId>
