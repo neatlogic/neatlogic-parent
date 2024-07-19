@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.51</version>
+    <version>3.0.52</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -1062,7 +1062,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
         <dependency>
             <groupId>com.github.jsqlparser</groupId>
             <artifactId>jsqlparser</artifactId>
-            <version>4.4</version>
+            <version>4.9</version>
         </dependency>
         <!--    <dependency>
                 <groupId>com.github.penggle</groupId>
@@ -1101,7 +1101,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-core</artifactId>
-            <version>9.0.27</version>
+            <version>9.0.91</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
