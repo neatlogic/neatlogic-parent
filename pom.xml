@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.53</version>
+    <version>3.0.54</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -44,6 +44,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.dashboard.base>0.3.0.0-SNAPSHOT</neatlogic.dashboard.base>
                 <neatlogic.deploy>0.3.0.0-SNAPSHOT</neatlogic.deploy>
                 <neatlogic.deploy.base>0.3.0.0-SNAPSHOT</neatlogic.deploy.base>
+                <neatlogic.deploy.commercial>0.3.0.0-SNAPSHOT</neatlogic.deploy.commercial>
                 <neatlogic.event>0.3.0.0-SNAPSHOT</neatlogic.event>
                 <neatlogic.event.base>0.3.0.0-SNAPSHOT</neatlogic.event.base>
                 <neatlogic.framework>0.3.0.0-SNAPSHOT</neatlogic.framework>
@@ -92,6 +93,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.dashboard.base>3.0.0</neatlogic.dashboard.base>
                 <neatlogic.deploy>3.0.0</neatlogic.deploy>
                 <neatlogic.deploy.base>3.0.0</neatlogic.deploy.base>
+                <neatlogic.deploy.commercial>3.0.0</neatlogic.deploy.commercial>
                 <neatlogic.event>3.0.0</neatlogic.event>
                 <neatlogic.event.base>3.0.0</neatlogic.event.base>
                 <neatlogic.framework>3.0.0</neatlogic.framework>
@@ -194,6 +196,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                         <groupId>com.neatlogic</groupId>
                         <artifactId>neatlogic-tenant-commercial</artifactId>
                         <version>${neatlogic.tenant.commercial}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-deploy-commercial</artifactId>
+                        <version>${neatlogic.deploy.commercial}</version>
                     </dependency>
                 </dependencies>
             </dependencyManagement>
