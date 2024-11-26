@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.56</version>
+    <version>3.0.57</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -26,7 +26,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
         <maven.compiler.target>1.8</maven.compiler.target>
         <org.slf4j-version>1.7.36</org.slf4j-version>
         <spring.version>5.3.39</spring.version>
-        <jackson.version>2.14.0-rc2</jackson.version>
+        <jackson.version>2.17.3</jackson.version>
+        <elasticsearch.version>7.17.25</elasticsearch.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <profiles>
@@ -724,6 +725,25 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <artifactId>mongodb-driver-sync</artifactId>
             <version>4.6.0</version>
         </dependency>
+        <!--es start-->
+        <!-- <dependency>
+             <groupId>org.elasticsearch.client</groupId>
+             <artifactId>elasticsearch-rest-high-level-client</artifactId>
+             <version>${elasticsearch.version}</version>
+         </dependency>-->
+
+        <!--<dependency>
+            <groupId>org.elasticsearch</groupId>
+            <artifactId>elasticsearch</artifactId>
+            <version>${elasticsearch.version}</version>
+        </dependency>-->
+
+        <dependency>
+            <groupId>co.elastic.clients</groupId>
+            <artifactId>elasticsearch-java</artifactId>
+            <version>${elasticsearch.version}</version>
+        </dependency>
+        <!--es end-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
