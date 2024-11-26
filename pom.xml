@@ -80,6 +80,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.tenant.commercial>0.3.0.0-SNAPSHOT</neatlogic.tenant.commercial>
                 <neatlogic.alert>0.3.0.0-SNAPSHOT</neatlogic.alert>
                 <neatlogic.alert.base>0.3.0.0-SNAPSHOT</neatlogic.alert.base>
+                <neatlogic.database>0.3.0.0-SNAPSHOT</neatlogic.database>
             </properties>
         </profile>
         <profile>
@@ -124,6 +125,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.resources>3.0.0</neatlogic.resources>
                 <neatlogic.tenant.commercial>0.3.0.0-SNAPSHOT</neatlogic.tenant.commercial>
                 <neatlogic.alert>3.0.0</neatlogic.alert>
+                <neatlogic.database>0.3.0.0-SNAPSHOT</neatlogic.database>
             </properties>
         </profile>
         <profile>
@@ -205,6 +207,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                         <groupId>com.neatlogic</groupId>
                         <artifactId>neatlogic-deploy-commercial</artifactId>
                         <version>${neatlogic.deploy.commercial}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-database</artifactId>
+                        <version>${neatlogic.database}</version>
                     </dependency>
                 </dependencies>
             </dependencyManagement>
