@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.58</version>
+    <version>3.0.59</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -213,6 +213,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                         <artifactId>neatlogic-database</artifactId>
                         <version>${neatlogic.database}</version>
                     </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-alert</artifactId>
+                        <version>${neatlogic.alert}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-alert-base</artifactId>
+                        <version>${neatlogic.alert.base}</version>
+                    </dependency>
                 </dependencies>
             </dependencyManagement>
         </profile>
@@ -359,16 +369,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-resources</artifactId>
                 <version>${neatlogic.resources}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-alert</artifactId>
-                <version>${neatlogic.alert}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-alert-base</artifactId>
-                <version>${neatlogic.alert.base}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
