@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.59</version>
+    <version>3.0.60</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -415,12 +415,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
-            <version>1.2.11</version>
+            <version>1.2.13</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.11</version>
+            <version>1.2.13</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.slf4j</groupId>
@@ -472,7 +472,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
         <dependency>
             <groupId>com.alibaba.nacos</groupId>
             <artifactId>nacos-spring-context</artifactId>
-            <version>1.1.1</version>
+            <version>1.1.2</version>
             <exclusions>
                 <exclusion>
                     <groupId>com.alibaba.nacos</groupId>
@@ -526,11 +526,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <artifactId>commons-codec</artifactId>
             <version>1.15</version>
         </dependency>
-        <!--<dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-dbcp2</artifactId>
-            <version>2.7.0</version>
-        </dependency>-->
         <dependency>
             <groupId>com.zaxxer</groupId>
             <artifactId>HikariCP</artifactId>
@@ -545,7 +540,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-compress</artifactId>
-            <version>1.21</version>
+            <version>1.27.1</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -566,7 +561,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
-            <version>2.11.0</version>
+            <version>2.14.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.xmlgraphics</groupId>
@@ -804,17 +799,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 </exclusion>
             </exclusions>
         </dependency>
-        <!--<dependency>
-            <groupId>org.mybatis.caches</groupId>
-            <artifactId>mybatis-ehcache</artifactId>
-            <version>1.2.1</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.slf4j</groupId>
-                    <artifactId>slf4j-api</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>-->
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-servlet-api</artifactId>
@@ -853,8 +837,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
 
         <dependency>
             <groupId>javax.mail</groupId>
-            <artifactId>mail</artifactId>
-            <version>1.4.7</version>
+            <artifactId>javax.mail-api</artifactId>
+            <version>1.6.2</version>
             <exclusions>
                 <exclusion>
                     <artifactId>activation</artifactId>
@@ -943,13 +927,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <!-- 导出pdf组件 -->
             <groupId>org.jsoup</groupId>
             <artifactId>jsoup</artifactId>
-            <version>1.14.3</version>
+            <version>1.15.3</version>
         </dependency>
         <dependency>
             <!-- 导出pdf组件 -->
             <groupId>org.docx4j</groupId>
             <artifactId>docx4j-ImportXHTML</artifactId>
-            <version>8.0.0</version>
+            <version>8.3.11</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.docx4j</groupId>
@@ -1043,7 +1027,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <!-- 没有这个包将使用远程转换pdf -->
             <groupId>org.docx4j</groupId>
             <artifactId>docx4j-export-fo</artifactId>
-            <version>8.2.1</version>
+            <version>8.2.9</version>
             <exclusions>
                 <exclusion>
                     <artifactId>slf4j-api</artifactId>
@@ -1062,7 +1046,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
         <dependency>
             <groupId>commons-net</groupId>
             <artifactId>commons-net</artifactId>
-            <version>3.8.0</version>
+            <version>3.9.0</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
@@ -1159,7 +1143,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-core</artifactId>
-            <version>9.0.91</version>
+            <version>9.0.100</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
