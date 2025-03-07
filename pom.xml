@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.60</version>
+    <version>3.0.61</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -933,7 +933,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <!-- 导出pdf组件 -->
             <groupId>org.docx4j</groupId>
             <artifactId>docx4j-ImportXHTML</artifactId>
-            <version>8.3.11</version>
+            <version>8.0.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.docx4j</groupId>
