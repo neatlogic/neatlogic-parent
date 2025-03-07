@@ -836,8 +836,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
         </dependency>
 
         <dependency>
-            <groupId>javax.mail</groupId>
-            <artifactId>javax.mail-api</artifactId>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>javax.mail</artifactId>
             <version>1.6.2</version>
             <exclusions>
                 <exclusion>
@@ -845,11 +845,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                     <groupId>javax.activation</groupId>
                 </exclusion>
             </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>com.sun.mail</groupId>
-            <artifactId>javax.mail</artifactId>
-            <version>1.6.2</version>
         </dependency>
         <dependency>
             <groupId>org.javers</groupId>
