@@ -933,7 +933,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <!-- 导出pdf组件 -->
             <groupId>org.docx4j</groupId>
             <artifactId>docx4j-ImportXHTML</artifactId>
-            <version>8.0.0</version>
+            <version>8.0.0</version> <!--这个版本不能随意替换，要做好测试-->
             <exclusions>
                 <exclusion>
                     <groupId>org.docx4j</groupId>
