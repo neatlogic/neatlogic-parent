@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
-    <version>3.0.61</version>
+    <version>3.0.62</version>
     <packaging>pom</packaging>
     <properties>
         <java-version>1.8</java-version>
@@ -845,6 +845,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                     <groupId>javax.activation</groupId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>javax.mail</artifactId>
+            <version>1.6.2</version>
         </dependency>
         <dependency>
             <groupId>org.javers</groupId>
