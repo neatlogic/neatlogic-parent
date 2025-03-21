@@ -130,9 +130,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.eoa.base>3.1.0</neatlogic.eoa.base>
                 <neatlogic.resources>3.1.0</neatlogic.resources>
                 <neatlogic.tenant.commercial>3.1.0</neatlogic.tenant.commercial>
-                <neatlogic.alert>3.1.0</neatlogic.alert>
-                <neatlogic.alert.base>3.1.0</neatlogic.alert.base>
-                <neatlogic.database>3.1.0</neatlogic.database>
+                <neatlogic.alert>0.3.0.0-SNAPSHOT</neatlogic.alert>
+                <neatlogic.alert.base>0.3.0.0-SNAPSHOT</neatlogic.alert.base>
+                <neatlogic.database>0.3.0.0-SNAPSHOT</neatlogic.database>
             </properties>
         </profile>
         <profile>
