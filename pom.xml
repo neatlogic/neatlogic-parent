@@ -117,6 +117,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.tagent>3.1.0</neatlogic.tagent>
                 <neatlogic.tagent.base>3.1.0</neatlogic.tagent.base>
                 <neatlogic.tenant>3.1.0</neatlogic.tenant>
+                <neatlogic.codehub.base>3.1.0</neatlogic.codehub.base>
+                <neatlogic.codehub>3.1.0</neatlogic.codehub>
+                <neatlogic.rdm.commercial>3.1.0</neatlogic.rdm.commercial>
+                <neatlogic.cmdb.commercial>3.1.0</neatlogic.cmdb.commercial>
+                <neatlogic.document.online>3.1.0</neatlogic.document.online>
+                <neatlogic.document.online.commercial>3.1.0</neatlogic.document.online.commercial>
                 <neatlogic.dr>3.1.0</neatlogic.dr>
                 <neatlogic.dr.base>3.1.0</neatlogic.dr.base>
                 <neatlogic.diagram>3.1.0</neatlogic.diagram>
@@ -125,6 +131,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.resources>3.1.0</neatlogic.resources>
                 <neatlogic.tenant.commercial>3.1.0</neatlogic.tenant.commercial>
                 <neatlogic.alert>3.1.0</neatlogic.alert>
+                <neatlogic.alert.base>3.1.0</neatlogic.alert.base>
                 <neatlogic.database>3.1.0</neatlogic.database>
             </properties>
         </profile>
