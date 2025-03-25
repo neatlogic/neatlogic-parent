@@ -6,5 +6,4 @@ bin
 .settings
 .classpath
 .project
-.flattened-pom.xml
 logs/
