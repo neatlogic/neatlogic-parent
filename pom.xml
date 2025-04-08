@@ -82,6 +82,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.alert>0.3.0.0-SNAPSHOT</neatlogic.alert>
                 <neatlogic.alert.base>0.3.0.0-SNAPSHOT</neatlogic.alert.base>
                 <neatlogic.database>0.3.0.0-SNAPSHOT</neatlogic.database>
+                <neatlogic.diagnosis>0.3.0.0-SNAPSHOT</neatlogic.diagnosis>
+                <neatlogic.diagnosis.base>0.3.0.0-SNAPSHOT</neatlogic.diagnosis.base>
             </properties>
         </profile>
         <profile>
@@ -134,6 +136,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.alert>0.3.0.0-SNAPSHOT</neatlogic.alert>
                 <neatlogic.alert.base>0.3.0.0-SNAPSHOT</neatlogic.alert.base>
                 <neatlogic.database>0.3.0.0-SNAPSHOT</neatlogic.database>
+                <neatlogic.diagnosis>0.3.0.0-SNAPSHOT</neatlogic.diagnosis>
+                <neatlogic.diagnosis.base>0.3.0.0-SNAPSHOT</neatlogic.diagnosis.base>
             </properties>
         </profile>
         <profile>
@@ -230,6 +234,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                         <groupId>com.neatlogic</groupId>
                         <artifactId>neatlogic-alert-base</artifactId>
                         <version>${neatlogic.alert.base}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-diagnosis</artifactId>
+                        <version>${neatlogic.diagnosis}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-diagnosis-base</artifactId>
+                        <version>${neatlogic.diagnosis.base}</version>
                     </dependency>
                 </dependencies>
             </dependencyManagement>
