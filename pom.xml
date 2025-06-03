@@ -81,6 +81,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.tenant.commercial>0.3.0.0-SNAPSHOT</neatlogic.tenant.commercial>
                 <neatlogic.alert>0.3.0.0-SNAPSHOT</neatlogic.alert>
                 <neatlogic.alert.base>0.3.0.0-SNAPSHOT</neatlogic.alert.base>
+                <neatlogic.alert.commercial>0.3.0.0-SNAPSHOT</neatlogic.alert.commercial>
                 <neatlogic.database>0.3.0.0-SNAPSHOT</neatlogic.database>
                 <neatlogic.diagnosis>0.3.0.0-SNAPSHOT</neatlogic.diagnosis>
                 <neatlogic.diagnosis.base>0.3.0.0-SNAPSHOT</neatlogic.diagnosis.base>
@@ -135,6 +136,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.tenant.commercial>3.2.0</neatlogic.tenant.commercial>
                 <neatlogic.alert>0.3.0.0-SNAPSHOT</neatlogic.alert>
                 <neatlogic.alert.base>0.3.0.0-SNAPSHOT</neatlogic.alert.base>
+                <neatlogic.alert.commercial>0.3.0.0-SNAPSHOT</neatlogic.alert.commercial>
                 <neatlogic.database>0.3.0.0-SNAPSHOT</neatlogic.database>
                 <neatlogic.diagnosis>0.3.0.0-SNAPSHOT</neatlogic.diagnosis>
                 <neatlogic.diagnosis.base>0.3.0.0-SNAPSHOT</neatlogic.diagnosis.base>
@@ -145,11 +147,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <id>commercial</id>
             <dependencyManagement>
                 <dependencies>
-<!--                    <dependency>-->
-<!--                        <groupId>com.neatlogic</groupId>-->
-<!--                        <artifactId>neatlogic-master</artifactId>-->
-<!--                        <version>${neatlogic.master}</version>-->
-<!--                    </dependency>-->
+                    <!--                    <dependency>-->
+                    <!--                        <groupId>com.neatlogic</groupId>-->
+                    <!--                        <artifactId>neatlogic-master</artifactId>-->
+                    <!--                        <version>${neatlogic.master}</version>-->
+                    <!--                    </dependency>-->
                     <dependency>
                         <groupId>com.neatlogic</groupId>
                         <artifactId>neatlogic-pbc</artifactId>
@@ -227,13 +229,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                     </dependency>
                     <dependency>
                         <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-alert</artifactId>
-                        <version>${neatlogic.alert}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-alert-base</artifactId>
-                        <version>${neatlogic.alert.base}</version>
+                        <artifactId>neatlogic-alert-commercial</artifactId>
+                        <version>${neatlogic.alert.commercial}</version>
                     </dependency>
                     <dependency>
                         <groupId>com.neatlogic</groupId>
@@ -381,6 +378,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <groupId>com.neatlogic</groupId>
                 <artifactId>neatlogic-deploy</artifactId>
                 <version>${neatlogic.deploy}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.neatlogic</groupId>
+                <artifactId>neatlogic-alert</artifactId>
+                <version>${neatlogic.alert}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.neatlogic</groupId>
+                <artifactId>neatlogic-alert-base</artifactId>
+                <version>${neatlogic.alert.base}</version>
             </dependency>
             <dependency>
                 <groupId>com.neatlogic</groupId>
