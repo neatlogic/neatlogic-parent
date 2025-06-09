@@ -521,12 +521,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <groupId>com.alibaba.nacos</groupId>
             <artifactId>nacos-client</artifactId>
             <version>2.1.2</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>snakeyaml</artifactId>
-                    <groupId>org.yaml</groupId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <!-- 代码直接调用java.util.logging会被桥接到slf4j -->
         <dependency>
@@ -573,10 +567,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <exclusion>
                     <groupId>org.springframework</groupId>
                     <artifactId>spring-context</artifactId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>snakeyaml</artifactId>
-                    <groupId>org.yaml</groupId>
                 </exclusion>
             </exclusions>
         </dependency>
