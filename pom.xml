@@ -1,27 +1,12 @@
-<!--Copyright (C) $today.year  深圳极向量科技有限公司 All Rights Reserved.
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
-
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version='1.0' encoding='utf-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.neatlogic</groupId>
     <artifactId>neatlogic-parent</artifactId>
     <version>${revision}</version>
     <packaging>pom</packaging>
     <properties>
-        <revision>3.3.0</revision>
+        <revision>3.3.1</revision>
         <java-version>1.8</java-version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -33,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
     </properties>
     <profiles>
         <profile>
-            <!--用于管理研发分支的版本号-->
+            
             <id>develop</id>
             <properties>
                 <neatlogic.autoexec>0.3.0.0-SNAPSHOT</neatlogic.autoexec>
@@ -87,7 +72,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             </properties>
         </profile>
         <profile>
-            <!--用于管理发布分支的版本号-->
+            
             <id>release</id>
             <properties>
                 <neatlogic.autoexec>3.3.0</neatlogic.autoexec>
@@ -141,15 +126,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             </properties>
         </profile>
         <profile>
-            <!--用于管理商业版的依赖模块-->
+            
             <id>commercial</id>
             <dependencyManagement>
                 <dependencies>
-                    <!--                    <dependency>-->
-                    <!--                        <groupId>com.neatlogic</groupId>-->
-                    <!--                        <artifactId>neatlogic-master</artifactId>-->
-                    <!--                        <version>${neatlogic.master}</version>-->
-                    <!--                    </dependency>-->
+                    
+                    
+                    
+                    
+                    
                     <dependency>
                         <groupId>com.neatlogic</groupId>
                         <artifactId>neatlogic-pbc</artifactId>
@@ -486,7 +471,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- 代码直接调用log4j会被桥接到slf4j -->
+        
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>log4j-over-slf4j</artifactId>
@@ -498,7 +483,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- 代码直接调用common-logging会被桥接到slf4j -->
+        
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jcl-over-slf4j</artifactId>
@@ -521,7 +506,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- 代码直接调用java.util.logging会被桥接到slf4j -->
+        
         <dependency>
             <groupId>com.alibaba.nacos</groupId>
             <artifactId>nacos-spring-context</artifactId>
@@ -789,25 +774,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <artifactId>mongodb-driver-sync</artifactId>
             <version>4.6.0</version>
         </dependency>
-        <!--es start-->
-        <!-- <dependency>
-             <groupId>org.elasticsearch.client</groupId>
-             <artifactId>elasticsearch-rest-high-level-client</artifactId>
-             <version>${elasticsearch.version}</version>
-         </dependency>-->
+        
+        
 
-        <!--<dependency>
-            <groupId>org.elasticsearch</groupId>
-            <artifactId>elasticsearch</artifactId>
-            <version>${elasticsearch.version}</version>
-        </dependency>-->
+        
 
         <dependency>
             <groupId>co.elastic.clients</groupId>
             <artifactId>elasticsearch-java</artifactId>
             <version>${elasticsearch.version}</version>
         </dependency>
-        <!--es end-->
+        
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
@@ -823,7 +800,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <artifactId>itextpdf</artifactId>
             <version>5.5.13.3</version>
         </dependency>
-        <!--显示中文-->
+        
         <dependency>
             <groupId>com.itextpdf</groupId>
             <artifactId>itext-asian</artifactId>
@@ -845,7 +822,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <version>2.1.3</version>
         </dependency>
         <dependency>
-            <!-- dom4j需要依赖此组件 -->
+            
             <groupId>jaxen</groupId>
             <artifactId>jaxen</artifactId>
             <version>1.2.0</version>
@@ -944,7 +921,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+        
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
@@ -960,31 +937,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
+        
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml-schemas</artifactId>
             <version>4.1.2</version>
         </dependency>
-        <!--<dependency>
-            <groupId>io.minio</groupId>
-            <artifactId>minio</artifactId>
-            <version>5.0.6</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.fasterxml.jackson.core</groupId>
-                    <artifactId>jackson-annotations</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>com.fasterxml.jackson.core</groupId>
-                    <artifactId>jackson-core</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>com.fasterxml.jackson.core</groupId>
-                    <artifactId>jackson-databind</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>-->
+        
         <dependency>
             <groupId>io.minio</groupId>
             <artifactId>minio</artifactId>
@@ -1005,16 +964,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             </exclusions>
         </dependency>
         <dependency>
-            <!-- 导出pdf组件 -->
+            
             <groupId>org.jsoup</groupId>
             <artifactId>jsoup</artifactId>
             <version>1.15.3</version>
         </dependency>
         <dependency>
-            <!-- 导出pdf组件 -->
+            
             <groupId>org.docx4j</groupId>
             <artifactId>docx4j-ImportXHTML</artifactId>
-            <version>8.0.0</version> <!--这个版本不能随意替换，要做好测试-->
+            <version>8.0.0</version> 
             <exclusions>
                 <exclusion>
                     <groupId>org.docx4j</groupId>
@@ -1105,7 +1064,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             </exclusions>
         </dependency>
         <dependency>
-            <!-- 没有这个包将使用远程转换pdf -->
+            
             <groupId>org.docx4j</groupId>
             <artifactId>docx4j-export-fo</artifactId>
             <version>8.2.9</version>
@@ -1144,7 +1103,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <artifactId>jackson-annotations</artifactId>
             <version>${jackson.version}</version>
         </dependency>
-        <!--全文检索高亮关键字用-->
+        
         <dependency>
             <groupId>net.sf.jtidy</groupId>
             <artifactId>jtidy</artifactId>
@@ -1187,16 +1146,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <artifactId>kafka-clients</artifactId>
             <version>3.8.1</version>
         </dependency>
-        <!--    <dependency>
-                <groupId>com.github.penggle</groupId>
-                <artifactId>kaptcha</artifactId>
-                <version>2.3.2</version>
-            </dependency>-->
-        <!--<dependency>
-            <groupId>com.neatlogic</groupId>
-            <artifactId>kaptcha</artifactId>
-            <version>2.3.2</version>
-        </dependency>-->
+        
+        
 
         <dependency>
             <groupId>org.jasig.cas.client</groupId>
@@ -1227,7 +1178,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <version>9.0.100</version>
             <scope>compile</scope>
         </dependency>
-        <!--mysql jdbc驱动-->
+        
         <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
@@ -1240,7 +1191,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 </exclusion>
             </exclusions>
         </dependency>
-        <!--oceanbase jdbc驱动-->
+        
         <dependency>
             <groupId>com.oceanbase</groupId>
             <artifactId>oceanbase-client</artifactId>
