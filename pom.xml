@@ -82,8 +82,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.alert.base>0.3.0.0-SNAPSHOT</neatlogic.alert.base>
                 <neatlogic.alert.commercial>0.3.0.0-SNAPSHOT</neatlogic.alert.commercial>
                 <neatlogic.database>0.3.0.0-SNAPSHOT</neatlogic.database>
-                <neatlogic.diagnosis>0.3.0.0-SNAPSHOT</neatlogic.diagnosis>
-                <neatlogic.diagnosis.base>0.3.0.0-SNAPSHOT</neatlogic.diagnosis.base>
+                <neatlogic.informant>0.3.0.0-SNAPSHOT</neatlogic.informant>
+                <neatlogic.informant.base>0.3.0.0-SNAPSHOT</neatlogic.informant.base>
             </properties>
         </profile>
         <profile>
@@ -136,8 +136,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.alert.base>3.3.0</neatlogic.alert.base>
                 <neatlogic.alert.commercial>3.3.0</neatlogic.alert.commercial>
                 <neatlogic.database>3.3.0</neatlogic.database>
-                <neatlogic.diagnosis>3.3.0</neatlogic.diagnosis>
-                <neatlogic.diagnosis.base>3.3.0</neatlogic.diagnosis.base>
+                <neatlogic.informant>3.3.0</neatlogic.informant>
+                <neatlogic.informant.base>3.3.0</neatlogic.informant.base>
             </properties>
         </profile>
         <profile>
@@ -227,13 +227,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                     </dependency>
                     <dependency>
                         <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-diagnosis</artifactId>
-                        <version>${neatlogic.diagnosis}</version>
+                        <artifactId>neatlogic-informant</artifactId>
+                        <version>${neatlogic.informant}</version>
                     </dependency>
                     <dependency>
                         <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-diagnosis-base</artifactId>
-                        <version>${neatlogic.diagnosis.base}</version>
+                        <artifactId>neatlogic-informant-base</artifactId>
+                        <version>${neatlogic.informant.base}</version>
                     </dependency>
                 </dependencies>
             </dependencyManagement>
