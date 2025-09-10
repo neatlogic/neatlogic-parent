@@ -142,11 +142,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.--><project
             <id>commercial</id>
             <dependencyManagement>
                 <dependencies>
-                    <!--                    <dependency>-->
-                    <!--                        <groupId>com.neatlogic</groupId>-->
-                    <!--                        <artifactId>neatlogic-master</artifactId>-->
-                    <!--                        <version>${neatlogic.master}</version>-->
-                    <!--                    </dependency>-->
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-master</artifactId>
+                        <version>${neatlogic.master}</version>
+                    </dependency>
                     <dependency>
                         <groupId>com.neatlogic</groupId>
                         <artifactId>neatlogic-pbc</artifactId>
