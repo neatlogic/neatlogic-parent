@@ -20,7 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
     <version>${revision}</version>
     <packaging>pom</packaging>
     <properties>
-        <revision>0.3.0.0-SNAPSHOT</revision>
+        <revision>0.4.0.0-SNAPSHOT</revision>
         <java-version>1.8</java-version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -83,6 +83,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.database>0.3.0.0-SNAPSHOT</neatlogic.database>
                 <neatlogic.informant>0.3.0.0-SNAPSHOT</neatlogic.informant>
                 <neatlogic.informant.base>0.3.0.0-SNAPSHOT</neatlogic.informant.base>
+                <neatlogic.ai>0.3.0.0-SNAPSHOT</neatlogic.ai>
+                <neatlogic.ai.base>0.3.0.0-SNAPSHOT</neatlogic.ai.base>
             </properties>
         </profile>
         <profile>
@@ -137,6 +139,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.database>3.4.0</neatlogic.database>
                 <neatlogic.informant>3.4.0</neatlogic.informant>
                 <neatlogic.informant.base>3.4.0</neatlogic.informant.base>
+                <neatlogic.ai>3.4.0</neatlogic.ai>
+                <neatlogic.ai.base>3.4.0</neatlogic.ai.base>
             </properties>
         </profile>
         <profile>
@@ -233,6 +237,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                         <groupId>com.neatlogic</groupId>
                         <artifactId>neatlogic-informant-base</artifactId>
                         <version>${neatlogic.informant.base}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-ai</artifactId>
+                        <version>${neatlogic.ai}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-ai-base</artifactId>
+                        <version>${neatlogic.ai.base}</version>
                     </dependency>
                 </dependencies>
             </dependencyManagement>
@@ -902,10 +916,21 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <artifactId>jaxen</artifactId>
             <version>1.2.0</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>net.sf.ehcache</groupId>
             <artifactId>ehcache</artifactId>
             <version>2.10.9.2</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>slf4j-api</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>-->
+        <dependency>
+            <groupId>org.ehcache</groupId>
+            <artifactId>ehcache</artifactId>
+            <version>3.11.1</version>
             <exclusions>
                 <exclusion>
                     <artifactId>slf4j-api</artifactId>
@@ -949,7 +974,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             </exclusions>
         </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>com.sun.mail</groupId>
             <artifactId>javax.mail</artifactId>
             <version>1.6.2</version>
@@ -959,7 +984,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                     <groupId>javax.activation</groupId>
                 </exclusion>
             </exclusions>
+        </dependency>-->
+
+        <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>jakarta.mail</artifactId>
+            <version>2.0.2</version>
         </dependency>
+
         <dependency>
             <groupId>org.javers</groupId>
             <artifactId>javers-core</artifactId>
@@ -971,6 +1003,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 </exclusion>
             </exclusions>
         </dependency>
+
         <dependency>
             <groupId>com.belerweb</groupId>
             <artifactId>pinyin4j</artifactId>
@@ -1180,6 +1213,23 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 </exclusion>
             </exclusions>
         </dependency>
+
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-runtime</artifactId>
+            <version>2.3.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-core</artifactId>
+            <version>2.3.0.1</version>
+        </dependency>
+
         <dependency>
             <groupId>commons-net</groupId>
             <artifactId>commons-net</artifactId>
@@ -1368,6 +1418,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <groupId>com.googlecode.aviator</groupId>
             <artifactId>aviator</artifactId>
             <version>5.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjdk.nashorn</groupId>
+            <artifactId>nashorn-core</artifactId>
+            <version>15.7</version>
         </dependency>
     </dependencies>
 </project>
