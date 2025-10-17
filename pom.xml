@@ -238,6 +238,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                         <artifactId>neatlogic-informant-base</artifactId>
                         <version>${neatlogic.informant.base}</version>
                     </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-ai</artifactId>
+                        <version>${neatlogic.ai}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-ai-base</artifactId>
+                        <version>${neatlogic.ai.base}</version>
+                    </dependency>
                 </dependencies>
             </dependencyManagement>
         </profile>
