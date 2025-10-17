@@ -936,6 +936,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                     <artifactId>slf4j-api</artifactId>
                     <groupId>org.slf4j</groupId>
                 </exclusion>
+                <exclusion>
+                    <groupId>org.glassfish.jaxb</groupId>
+                    <artifactId>jaxb-runtime</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
         <dependency>
@@ -1185,6 +1189,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                     <groupId>com.fasterxml.jackson.core</groupId>
                     <artifactId>jackson-databind</artifactId>
                 </exclusion>
+                <exclusion>
+                    <artifactId>jaxb-runtime</artifactId>
+                    <groupId>org.glassfish.jaxb</groupId>
+                </exclusion>
             </exclusions>
         </dependency>
         <dependency>
@@ -1205,6 +1213,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                     <groupId>com.sun.media</groupId>
                     <artifactId>jai-codec</artifactId>
                 </exclusion>
+                <exclusion>
+                    <groupId>org.glassfish.jaxb</groupId>
+                    <artifactId>jaxb-runtime</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
 
@@ -1218,11 +1230,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <artifactId>jaxb-runtime</artifactId>
             <version>2.3.5</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>org.glassfish.jaxb</groupId>
             <artifactId>jaxb-core</artifactId>
             <version>2.3.0.1</version>
-        </dependency>
+            <exclusions>
+                <exclusion>
+                    <artifactId>txw2</artifactId>
+                    <groupId>org.glassfish.jaxb</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>-->
 
         <dependency>
             <groupId>commons-net</groupId>
@@ -1353,6 +1371,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <exclusion>
                     <artifactId>slf4j-api</artifactId>
                     <groupId>org.slf4j</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>jaxb-core</artifactId>
+                    <groupId>org.glassfish.jaxb</groupId>
                 </exclusion>
             </exclusions>
         </dependency>
