@@ -880,6 +880,22 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <version>1.2.83</version>
         </dependency>
         <dependency>
+            <groupId>com.github.librepdf</groupId>
+            <artifactId>openpdf</artifactId>
+            <version>1.4.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.xhtmlrenderer</groupId>
+            <artifactId>flying-saucer-pdf-openpdf</artifactId>
+            <version>9.4.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.github.librepdf</groupId>
+                    <artifactId>openpdf</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <!--<dependency>
             <groupId>com.itextpdf.tool</groupId>
             <artifactId>xmlworker</artifactId>
             <version>5.5.13.3</version>
@@ -889,12 +905,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <artifactId>itextpdf</artifactId>
             <version>5.5.13.3</version>
         </dependency>
-        <!--显示中文-->
         <dependency>
             <groupId>com.itextpdf</groupId>
             <artifactId>itext-asian</artifactId>
             <version>5.2.0</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>net.lingala.zip4j</groupId>
             <artifactId>zip4j</artifactId>
@@ -1110,6 +1125,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <exclusion>
                     <artifactId>junit</artifactId>
                     <groupId>junit</groupId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.lowagie</groupId>
+                    <artifactId>itext</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
