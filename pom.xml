@@ -200,16 +200,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                     </dependency>
                     <dependency>
                         <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-eoa</artifactId>
-                        <version>${neatlogic.eoa}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-eoa-base</artifactId>
-                        <version>${neatlogic.eoa.base}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
                         <artifactId>neatlogic-itsm-commercial</artifactId>
                         <version>${neatlogic.itsm.commercial}</version>
                     </dependency>
