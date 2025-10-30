@@ -74,8 +74,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.dr>0.4.0.0-SNAPSHOT</neatlogic.dr>
                 <neatlogic.dr.base>0.4.0.0-SNAPSHOT</neatlogic.dr.base>
                 <neatlogic.diagram>0.4.0.0-SNAPSHOT</neatlogic.diagram>
-                <neatlogic.eoa>0.4.0.0-SNAPSHOT</neatlogic.eoa>
-                <neatlogic.eoa.base>0.4.0.0-SNAPSHOT</neatlogic.eoa.base>
                 <neatlogic.resources>0.4.0.0-SNAPSHOT</neatlogic.resources>
                 <neatlogic.alert>0.4.0.0-SNAPSHOT</neatlogic.alert>
                 <neatlogic.alert.base>0.4.0.0-SNAPSHOT</neatlogic.alert.base>
@@ -130,8 +128,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.dr>3.4.0</neatlogic.dr>
                 <neatlogic.dr.base>3.4.0</neatlogic.dr.base>
                 <neatlogic.diagram>3.4.0</neatlogic.diagram>
-                <neatlogic.eoa>3.4.0</neatlogic.eoa>
-                <neatlogic.eoa.base>3.4.0</neatlogic.eoa.base>
                 <neatlogic.resources>3.4.0</neatlogic.resources>
                 <neatlogic.alert>3.4.0</neatlogic.alert>
                 <neatlogic.alert.base>3.4.0</neatlogic.alert.base>
