@@ -19,6 +19,60 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
     <artifactId>neatlogic-parent</artifactId>
     <version>${revision}</version>
     <packaging>pom</packaging>
+
+    <!--<modules>
+        <module>../neatlogic-framework</module>
+        <module>../neatlogic-ai-base</module>
+        <module>../neatlogic-alert-plugin-base</module>
+        <module>../neatlogic-alert-base</module>
+        <module>../neatlogic-rdm-base</module>
+        <module>../neatlogic-report-base</module>
+        <module>../neatlogic-cmdb-base</module>
+        <module>../neatlogic-tagent-base</module>
+        <module>../neatlogic-autoexec-base</module>
+        <module>../neatlogic-inspect-base</module>
+        <module>../neatlogic-deploy-base</module>
+        <module>../neatlogic-codehub-base</module>
+        <module>../neatlogic-dr-base</module>
+        <module>../neatlogic-dashboard-base</module>
+        <module>../neatlogic-knowledge-base</module>
+        <module>../neatlogic-itsm-base</module>
+        <module>../neatlogic-event-base</module>
+        <module>../neatlogic-change-base</module>
+        <module>../neatlogic-autoexec</module>
+        <module>../neatlogic-change</module>
+        <module>../neatlogic-cmdb</module>
+        <module>../neatlogic-dashboard</module>
+        <module>../neatlogic-deploy</module>
+        <module>../neatlogic-event</module>
+        <module>../neatlogic-inspect</module>
+        <module>../neatlogic-itsm</module>
+        <module>../neatlogic-knowledge</module>
+        <module>../neatlogic-pbc</module>
+        <module>../neatlogic-rdm</module>
+        <module>../neatlogic-report</module>
+        <module>../neatlogic-tagent</module>
+        <module>../neatlogic-tenant</module>
+        <module>../neatlogic-codehub</module>
+        <module>../neatlogic-rdm-commercial</module>
+        <module>../neatlogic-cmdb-commercial</module>
+        <module>../neatlogic-dr</module>
+        <module>../neatlogic-diagram</module>
+        <module>../neatlogic-resources</module>
+        <module>../neatlogic-tenant-commercial</module>
+        <module>../neatlogic-itsm-commercial</module>
+        <module>../neatlogic-deploy-commercial</module>
+        <module>../neatlogic-alert</module>
+        <module>../neatlogic-alert-commercial</module>
+        <module>../neatlogic-database</module>
+        <module>../neatlogic-master</module>
+        <module>../neatlogic-ai</module>
+        <module>../neatlogic-informant-base</module>
+        <module>../neatlogic-informant</module>
+        <module>../neatlogic-springboot</module>
+        <module>../neatlogic-webroot</module>
+    </modules>-->
+
     <properties>
         <revision>0.4.0.0-SNAPSHOT</revision>
         <java-version>17</java-version>
@@ -394,6 +448,26 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
         </dependencies>
     </dependencyManagement>
     <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>2.3.2</version>
+                    <configuration>
+                        <source>${java-version}</source>
+                        <target>${java-version}</target>
+                        <encoding>UTF-8</encoding>
+                        <compilerArgument>-Xlint:all</compilerArgument>
+                        <showWarnings>true</showWarnings>
+                        <showDeprecation>true</showDeprecation>
+                        <annotationProcessors>
+                            <annotationProcessor>neatlogic.framework.annotationprocessor.NeatLogicApiAnnotationProcessor</annotationProcessor>
+                        </annotationProcessors>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
         <plugins>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
@@ -419,19 +493,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>2.3.2</version>
-                <configuration>
-                    <source>${java-version}</source>
-                    <target>${java-version}</target>
-                    <encoding>UTF-8</encoding>
-                    <compilerArgument>-Xlint:all</compilerArgument>
-                    <showWarnings>true</showWarnings>
-                    <showDeprecation>true</showDeprecation>
-                </configuration>
             </plugin>
         </plugins>
         <resources>
