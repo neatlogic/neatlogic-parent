@@ -40,6 +40,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
         <module>../neatlogic-event-base</module>
         <module>../neatlogic-change-base</module>
         <module>../neatlogic-autoexec</module>
+        <module>../neatlogic-autoexec-commercial</module>
         <module>../neatlogic-change</module>
         <module>../neatlogic-cmdb</module>
         <module>../neatlogic-dashboard</module>
