@@ -40,6 +40,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
         <module>../neatlogic-event-base</module>
         <module>../neatlogic-change-base</module>
         <module>../neatlogic-autoexec</module>
+        <module>../neatlogic-autoexec-commercial</module>
         <module>../neatlogic-change</module>
         <module>../neatlogic-cmdb</module>
         <module>../neatlogic-dashboard</module>
@@ -91,6 +92,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
             <properties>
                 <neatlogic.autoexec>0.4.0.0-SNAPSHOT</neatlogic.autoexec>
                 <neatlogic.autoexec.base>0.4.0.0-SNAPSHOT</neatlogic.autoexec.base>
+                <neatlogic.autoexec.commercial>0.4.0.0-SNAPSHOT</neatlogic.autoexec.commercial>
                 <neatlogic.change>0.4.0.0-SNAPSHOT</neatlogic.change>
                 <neatlogic.change.base>0.4.0.0-SNAPSHOT</neatlogic.change.base>
                 <neatlogic.cmdb>0.4.0.0-SNAPSHOT</neatlogic.cmdb>
@@ -119,6 +121,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.tagent>0.4.0.0-SNAPSHOT</neatlogic.tagent>
                 <neatlogic.tagent.base>0.4.0.0-SNAPSHOT</neatlogic.tagent.base>
                 <neatlogic.tenant>0.4.0.0-SNAPSHOT</neatlogic.tenant>
+                <neatlogic.tenant.commercial>0.4.0.0-SNAPSHOT</neatlogic.tenant.commercial>
                 <neatlogic.codehub.base>0.4.0.0-SNAPSHOT</neatlogic.codehub.base>
                 <neatlogic.codehub>0.4.0.0-SNAPSHOT</neatlogic.codehub>
                 <neatlogic.rdm.commercial>0.4.0.0-SNAPSHOT</neatlogic.rdm.commercial>
@@ -252,6 +255,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                         <groupId>com.neatlogic</groupId>
                         <artifactId>neatlogic-itsm-commercial</artifactId>
                         <version>${neatlogic.itsm.commercial}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-tenant-commercial</artifactId>
+                        <version>${neatlogic.tenant.commercial}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-autoexec-commercial</artifactId>
+                        <version>${neatlogic.autoexec.commercial}</version>
                     </dependency>
                     <dependency>
                         <groupId>com.neatlogic</groupId>
