@@ -119,6 +119,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <neatlogic.tagent>0.4.0.0-SNAPSHOT</neatlogic.tagent>
                 <neatlogic.tagent.base>0.4.0.0-SNAPSHOT</neatlogic.tagent.base>
                 <neatlogic.tenant>0.4.0.0-SNAPSHOT</neatlogic.tenant>
+                <neatlogic.tenant.commercial>0.4.0.0-SNAPSHOT</neatlogic.tenant.commercial>
                 <neatlogic.codehub.base>0.4.0.0-SNAPSHOT</neatlogic.codehub.base>
                 <neatlogic.codehub>0.4.0.0-SNAPSHOT</neatlogic.codehub>
                 <neatlogic.rdm.commercial>0.4.0.0-SNAPSHOT</neatlogic.rdm.commercial>
@@ -252,6 +253,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                         <groupId>com.neatlogic</groupId>
                         <artifactId>neatlogic-itsm-commercial</artifactId>
                         <version>${neatlogic.itsm.commercial}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.neatlogic</groupId>
+                        <artifactId>neatlogic-tenant-commercial</artifactId>
+                        <version>${neatlogic.tenant.commercial}</version>
                     </dependency>
                     <dependency>
                         <groupId>com.neatlogic</groupId>
