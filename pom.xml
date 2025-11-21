@@ -1,17 +1,4 @@
-<!--Copyright (C) $today.year  深圳极向量科技有限公司 All Rights Reserved.
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -19,61 +6,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
     <artifactId>neatlogic-parent</artifactId>
     <version>${revision}</version>
     <packaging>pom</packaging>
-
-    <!--<modules>
-        <module>../neatlogic-framework</module>
-        <module>../neatlogic-ai-base</module>
-        <module>../neatlogic-alert-plugin-base</module>
-        <module>../neatlogic-alert-base</module>
-        <module>../neatlogic-rdm-base</module>
-        <module>../neatlogic-report-base</module>
-        <module>../neatlogic-cmdb-base</module>
-        <module>../neatlogic-tagent-base</module>
-        <module>../neatlogic-autoexec-base</module>
-        <module>../neatlogic-inspect-base</module>
-        <module>../neatlogic-deploy-base</module>
-        <module>../neatlogic-codehub-base</module>
-        <module>../neatlogic-dr-base</module>
-        <module>../neatlogic-dashboard-base</module>
-        <module>../neatlogic-knowledge-base</module>
-        <module>../neatlogic-itsm-base</module>
-        <module>../neatlogic-event-base</module>
-        <module>../neatlogic-change-base</module>
-        <module>../neatlogic-autoexec</module>
-        <module>../neatlogic-autoexec-commercial</module>
-        <module>../neatlogic-change</module>
-        <module>../neatlogic-cmdb</module>
-        <module>../neatlogic-dashboard</module>
-        <module>../neatlogic-deploy</module>
-        <module>../neatlogic-event</module>
-        <module>../neatlogic-inspect</module>
-        <module>../neatlogic-itsm</module>
-        <module>../neatlogic-knowledge</module>
-        <module>../neatlogic-pbc</module>
-        <module>../neatlogic-rdm</module>
-        <module>../neatlogic-report</module>
-        <module>../neatlogic-tagent</module>
-        <module>../neatlogic-tenant</module>
-        <module>../neatlogic-codehub</module>
-        <module>../neatlogic-rdm-commercial</module>
-        <module>../neatlogic-cmdb-commercial</module>
-        <module>../neatlogic-dr</module>
-        <module>../neatlogic-diagram</module>
-        <module>../neatlogic-resources</module>
-        <module>../neatlogic-tenant-commercial</module>
-        <module>../neatlogic-itsm-commercial</module>
-        <module>../neatlogic-deploy-commercial</module>
-        <module>../neatlogic-alert</module>
-        <module>../neatlogic-alert-commercial</module>
-        <module>../neatlogic-database</module>
-        <module>../neatlogic-master</module>
-        <module>../neatlogic-ai</module>
-        <module>../neatlogic-informant-base</module>
-        <module>../neatlogic-informant</module>
-        <module>../neatlogic-springboot</module>
-        <module>../neatlogic-webroot</module>
-    </modules>-->
-
     <properties>
         <revision>0.4.0.0-SNAPSHOT</revision>
         <java-version>17</java-version>
