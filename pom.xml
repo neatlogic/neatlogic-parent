@@ -18,36 +18,36 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <modules>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-framework</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-alert-plugin-base</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-alert-base</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-rdm-base</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-report-base</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-cmdb-base</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-tagent-base</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-autoexec-base</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-inspect-base</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-deploy-base</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-dashboard-base</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-knowledge-base</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-itsm-base</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-event-base</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-change-base</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-autoexec</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-change</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-cmdb</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-dashboard</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-deploy</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-event</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-inspect</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-itsm</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-knowledge</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-rdm</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-report</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-tagent</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-tenant</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-resources</module>
-        <module>/app/pack/neatlogic-itom-all/neatlogic-alert</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-framework</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-alert-plugin-base</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-alert-base</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-rdm-base</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-report-base</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-cmdb-base</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-tagent-base</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-autoexec-base</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-inspect-base</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-deploy-base</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-dashboard-base</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-knowledge-base</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-itsm-base</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-event-base</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-change-base</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-autoexec</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-change</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-cmdb</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-dashboard</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-deploy</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-event</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-inspect</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-itsm</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-knowledge</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-rdm</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-report</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-tagent</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-tenant</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-resources</module>
+        <module>../../../pack//neatlogic-itom-all/neatlogic-alert</module>
         <module>../neatlogic-webroot</module>
     </modules>
     <profiles>
@@ -165,25 +165,25 @@
             <!--用于管理商业版的依赖模块-->
             <id>commercial</id>
             <modules>
-                <module>/app/pack/neatlogic-itom-all/neatlogic-master</module>
-                <module>/app/pack/neatlogic-itom-all/neatlogic-pbc</module>
-                <module>/app/pack/neatlogic-itom-all/neatlogic-codehub-base</module>
-                <module>/app/pack/neatlogic-itom-all/neatlogic-ai-base</module>
-                <module>/app/pack/neatlogic-itom-all/neatlogic-codehub</module>
-                <module>/app/pack/neatlogic-itom-all/neatlogic-rdm-commercial</module>
-                <module>/app/pack/neatlogic-itom-all/neatlogic-cmdb-commercial</module>
-                <module>/app/pack/neatlogic-itom-all/neatlogic-dr</module>
-                <module>/app/pack/neatlogic-itom-all/neatlogic-dr-base</module>
-                <module>/app/pack/neatlogic-itom-all/neatlogic-diagram</module>
-                <module>/app/pack/neatlogic-itom-all/neatlogic-itsm-commercial</module>
-                <module>/app/pack/neatlogic-itom-all/neatlogic-tenant-commercial</module>
-                <module>/app/pack/neatlogic-itom-all/neatlogic-autoexec-commercial</module>
-                <module>/app/pack/neatlogic-itom-all/neatlogic-deploy-commercial</module>
-                <module>/app/pack/neatlogic-itom-all/neatlogic-alert-commercial</module>
-                <module>/app/pack/neatlogic-itom-all/neatlogic-database</module>
-                <module>/app/pack/neatlogic-itom-all/neatlogic-ai</module>
-                <module>/app/pack/neatlogic-itom-all/neatlogic-informant</module>
-                <module>/app/pack/neatlogic-itom-all/neatlogic-informant-base</module>
+                <module>../../../pack//neatlogic-itom-all/neatlogic-master</module>
+                <module>../../../pack//neatlogic-itom-all/neatlogic-pbc</module>
+                <module>../../../pack//neatlogic-itom-all/neatlogic-codehub-base</module>
+                <module>../../../pack//neatlogic-itom-all/neatlogic-ai-base</module>
+                <module>../../../pack//neatlogic-itom-all/neatlogic-codehub</module>
+                <module>../../../pack//neatlogic-itom-all/neatlogic-rdm-commercial</module>
+                <module>../../../pack//neatlogic-itom-all/neatlogic-cmdb-commercial</module>
+                <module>../../../pack//neatlogic-itom-all/neatlogic-dr</module>
+                <module>../../../pack//neatlogic-itom-all/neatlogic-dr-base</module>
+                <module>../../../pack//neatlogic-itom-all/neatlogic-diagram</module>
+                <module>../../../pack//neatlogic-itom-all/neatlogic-itsm-commercial</module>
+                <module>../../../pack//neatlogic-itom-all/neatlogic-tenant-commercial</module>
+                <module>../../../pack//neatlogic-itom-all/neatlogic-autoexec-commercial</module>
+                <module>../../../pack//neatlogic-itom-all/neatlogic-deploy-commercial</module>
+                <module>../../../pack//neatlogic-itom-all/neatlogic-alert-commercial</module>
+                <module>../../../pack//neatlogic-itom-all/neatlogic-database</module>
+                <module>../../../pack//neatlogic-itom-all/neatlogic-ai</module>
+                <module>../../../pack//neatlogic-itom-all/neatlogic-informant</module>
+                <module>../../../pack//neatlogic-itom-all/neatlogic-informant-base</module>
             </modules>
             <dependencyManagement>
                 <dependencies>
