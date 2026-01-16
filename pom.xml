@@ -17,6 +17,38 @@
         <elasticsearch.version>7.17.25</elasticsearch.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <modules>
+        <module>../neatlogic-framework</module>
+        <module>../neatlogic-alert-plugin-base</module>
+        <module>../neatlogic-alert-base</module>
+        <module>../neatlogic-rdm-base</module>
+        <module>../neatlogic-report-base</module>
+        <module>../neatlogic-cmdb-base</module>
+        <module>../neatlogic-tagent-base</module>
+        <module>../neatlogic-autoexec-base</module>
+        <module>../neatlogic-inspect-base</module>
+        <module>../neatlogic-deploy-base</module>
+        <module>../neatlogic-dashboard-base</module>
+        <module>../neatlogic-knowledge-base</module>
+        <module>../neatlogic-itsm-base</module>
+        <module>../neatlogic-event-base</module>
+        <module>../neatlogic-change-base</module>
+        <module>../neatlogic-autoexec</module>
+        <module>../neatlogic-change</module>
+        <module>../neatlogic-cmdb</module>
+        <module>../neatlogic-dashboard</module>
+        <module>../neatlogic-deploy</module>
+        <module>../neatlogic-event</module>
+        <module>../neatlogic-inspect</module>
+        <module>../neatlogic-itsm</module>
+        <module>../neatlogic-knowledge</module>
+        <module>../neatlogic-rdm</module>
+        <module>../neatlogic-report</module>
+        <module>../neatlogic-tagent</module>
+        <module>../neatlogic-tenant</module>
+        <module>../neatlogic-resources</module>
+        <module>../neatlogic-alert</module>
+    </modules>
     <profiles>
         <profile>
             <!--用于管理研发分支的版本号-->
@@ -131,6 +163,27 @@
         <profile>
             <!--用于管理商业版的依赖模块-->
             <id>commercial</id>
+            <modules>
+                <module>../neatlogic-master</module>
+                <module>../neatlogic-pbc</module>
+                <module>../neatlogic-codehub-base</module>
+                <module>../neatlogic-ai-base</module>
+                <module>../neatlogic-codehub</module>
+                <module>../neatlogic-rdm-commercial</module>
+                <module>../neatlogic-cmdb-commercial</module>
+                <module>../neatlogic-dr</module>
+                <module>../neatlogic-dr-base</module>
+                <module>../neatlogic-diagram</module>
+                <module>../neatlogic-itsm-commercial</module>
+                <module>../neatlogic-tenant-commercial</module>
+                <module>../neatlogic-autoexec-commercial</module>
+                <module>../neatlogic-deploy-commercial</module>
+                <module>../neatlogic-alert-commercial</module>
+                <module>../neatlogic-database</module>
+                <module>../neatlogic-ai</module>
+                <module>../neatlogic-informant</module>
+                <module>../neatlogic-informant-base</module>
+            </modules>
             <dependencyManagement>
                 <dependencies>
                     <dependency>
@@ -142,11 +195,6 @@
                         <groupId>com.neatlogic</groupId>
                         <artifactId>neatlogic-pbc</artifactId>
                         <version>${neatlogic.pbc}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-document-online-commercial</artifactId>
-                        <version>${neatlogic.document.online.commercial}</version>
                     </dependency>
                     <dependency>
                         <groupId>com.neatlogic</groupId>
