@@ -17,7 +17,7 @@
         <elasticsearch.version>7.17.25</elasticsearch.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <modul/app/pack/neatlogic-itom-all/
+    <modules>
         <module>/app/pack/neatlogic-itom-all/neatlogic-framework</module>
         <module>/app/pack/neatlogic-itom-all/neatlogic-alert-plugin-base</module>
         <module>/app/pack/neatlogic-itom-all/neatlogic-alert-base</module>
