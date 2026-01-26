@@ -14,384 +14,38 @@
         <spring.version>5.3.39</spring.version>
         <jackson.version>2.17.3</jackson.version>
         <elasticsearch.version>7.17.25</elasticsearch.version>
-        <!--<elasticsearch.version>8.16.6</elasticsearch.version>-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <profiles>
         <profile>
-            <!--用于管理研发分支的版本号-->
             <id>develop</id>
-            <properties>
-                <neatlogic.autoexec>0.4.0.0-SNAPSHOT</neatlogic.autoexec>
-                <neatlogic.autoexec.base>0.4.0.0-SNAPSHOT</neatlogic.autoexec.base>
-                <neatlogic.autoexec.commercial>0.4.0.0-SNAPSHOT</neatlogic.autoexec.commercial>
-                <neatlogic.change>0.4.0.0-SNAPSHOT</neatlogic.change>
-                <neatlogic.change.base>0.4.0.0-SNAPSHOT</neatlogic.change.base>
-                <neatlogic.cmdb>0.4.0.0-SNAPSHOT</neatlogic.cmdb>
-                <neatlogic.cmdb.base>0.4.0.0-SNAPSHOT</neatlogic.cmdb.base>
-                <neatlogic.dashboard>0.4.0.0-SNAPSHOT</neatlogic.dashboard>
-                <neatlogic.dashboard.base>0.4.0.0-SNAPSHOT</neatlogic.dashboard.base>
-                <neatlogic.deploy>0.4.0.0-SNAPSHOT</neatlogic.deploy>
-                <neatlogic.deploy.base>0.4.0.0-SNAPSHOT</neatlogic.deploy.base>
-                <neatlogic.deploy.commercial>0.4.0.0-SNAPSHOT</neatlogic.deploy.commercial>
-                <neatlogic.event>0.4.0.0-SNAPSHOT</neatlogic.event>
-                <neatlogic.event.base>0.4.0.0-SNAPSHOT</neatlogic.event.base>
-                <neatlogic.framework>0.4.0.0-SNAPSHOT</neatlogic.framework>
-                <neatlogic.inspect>0.4.0.0-SNAPSHOT</neatlogic.inspect>
-                <neatlogic.inspect.base>0.4.0.0-SNAPSHOT</neatlogic.inspect.base>
-                <neatlogic.knowledge>0.4.0.0-SNAPSHOT</neatlogic.knowledge>
-                <neatlogic.knowledge.base>0.4.0.0-SNAPSHOT</neatlogic.knowledge.base>
-                <neatlogic.master>0.4.0.0-SNAPSHOT</neatlogic.master>
-                <neatlogic.pbc>0.4.0.0-SNAPSHOT</neatlogic.pbc>
-                <neatlogic.itsm>0.4.0.0-SNAPSHOT</neatlogic.itsm>
-                <neatlogic.itsm.base>0.4.0.0-SNAPSHOT</neatlogic.itsm.base>
-                <neatlogic.itsm.commercial>0.4.0.0-SNAPSHOT</neatlogic.itsm.commercial>
-                <neatlogic.rdm>0.4.0.0-SNAPSHOT</neatlogic.rdm>
-                <neatlogic.rdm.base>0.4.0.0-SNAPSHOT</neatlogic.rdm.base>
-                <neatlogic.report>0.4.0.0-SNAPSHOT</neatlogic.report>
-                <neatlogic.report.base>0.4.0.0-SNAPSHOT</neatlogic.report.base>
-                <neatlogic.tagent>0.4.0.0-SNAPSHOT</neatlogic.tagent>
-                <neatlogic.tagent.base>0.4.0.0-SNAPSHOT</neatlogic.tagent.base>
-                <neatlogic.tenant>0.4.0.0-SNAPSHOT</neatlogic.tenant>
-                <neatlogic.tenant.commercial>0.4.0.0-SNAPSHOT</neatlogic.tenant.commercial>
-                <neatlogic.codehub.base>0.4.0.0-SNAPSHOT</neatlogic.codehub.base>
-                <neatlogic.codehub>0.4.0.0-SNAPSHOT</neatlogic.codehub>
-                <neatlogic.rdm.commercial>0.4.0.0-SNAPSHOT</neatlogic.rdm.commercial>
-                <neatlogic.cmdb.commercial>0.4.0.0-SNAPSHOT</neatlogic.cmdb.commercial>
-                <neatlogic.document.online>0.4.0.0-SNAPSHOT</neatlogic.document.online>
-                <neatlogic.document.online.commercial>0.4.0.0-SNAPSHOT</neatlogic.document.online.commercial>
-                <neatlogic.dr>0.4.0.0-SNAPSHOT</neatlogic.dr>
-                <neatlogic.dr.base>0.4.0.0-SNAPSHOT</neatlogic.dr.base>
-                <neatlogic.diagram>0.4.0.0-SNAPSHOT</neatlogic.diagram>
-                <neatlogic.resources>0.4.0.0-SNAPSHOT</neatlogic.resources>
-                <neatlogic.alert>0.4.0.0-SNAPSHOT</neatlogic.alert>
-                <neatlogic.alert.base>0.4.0.0-SNAPSHOT</neatlogic.alert.base>
-                <neatlogic.alert.commercial>0.4.0.0-SNAPSHOT</neatlogic.alert.commercial>
-                <neatlogic.database>0.4.0.0-SNAPSHOT</neatlogic.database>
-                <neatlogic.informant>0.4.0.0-SNAPSHOT</neatlogic.informant>
-                <neatlogic.informant.base>0.4.0.0-SNAPSHOT</neatlogic.informant.base>
-                <neatlogic.ai>0.4.0.0-SNAPSHOT</neatlogic.ai>
-                <neatlogic.ai.base>0.4.0.0-SNAPSHOT</neatlogic.ai.base>
-            </properties>
-        </profile>
-        <profile>
-            <!--用于管理发布分支的版本号-->
-            <id>release</id>
-            <properties>
-                <neatlogic.autoexec>4.0.0</neatlogic.autoexec>
-                <neatlogic.autoexec.base>4.0.0</neatlogic.autoexec.base>
-                <neatlogic.change>4.0.0</neatlogic.change>
-                <neatlogic.change.base>4.0.0</neatlogic.change.base>
-                <neatlogic.cmdb>4.0.0</neatlogic.cmdb>
-                <neatlogic.cmdb.base>4.0.0</neatlogic.cmdb.base>
-                <neatlogic.dashboard>4.0.0</neatlogic.dashboard>
-                <neatlogic.dashboard.base>4.0.0</neatlogic.dashboard.base>
-                <neatlogic.deploy>4.0.0</neatlogic.deploy>
-                <neatlogic.deploy.base>4.0.0</neatlogic.deploy.base>
-                <neatlogic.deploy.commercial>4.0.0</neatlogic.deploy.commercial>
-                <neatlogic.event>4.0.0</neatlogic.event>
-                <neatlogic.event.base>4.0.0</neatlogic.event.base>
-                <neatlogic.framework>4.0.0</neatlogic.framework>
-                <neatlogic.inspect>4.0.0</neatlogic.inspect>
-                <neatlogic.inspect.base>4.0.0</neatlogic.inspect.base>
-                <neatlogic.knowledge>4.0.0</neatlogic.knowledge>
-                <neatlogic.knowledge.base>4.0.0</neatlogic.knowledge.base>
-                <neatlogic.master>4.0.0</neatlogic.master>
-                <neatlogic.pbc>4.0.0</neatlogic.pbc>
-                <neatlogic.itsm>4.0.0</neatlogic.itsm>
-                <neatlogic.itsm.base>4.0.0</neatlogic.itsm.base>
-                <neatlogic.itsm.commercial>4.0.0</neatlogic.itsm.commercial>
-                <neatlogic.rdm>4.0.0</neatlogic.rdm>
-                <neatlogic.rdm.base>4.0.0</neatlogic.rdm.base>
-                <neatlogic.report>4.0.0</neatlogic.report>
-                <neatlogic.report.base>4.0.0</neatlogic.report.base>
-                <neatlogic.tagent>4.0.0</neatlogic.tagent>
-                <neatlogic.tagent.base>4.0.0</neatlogic.tagent.base>
-                <neatlogic.tenant>4.0.0</neatlogic.tenant>
-                <neatlogic.codehub.base>4.0.0</neatlogic.codehub.base>
-                <neatlogic.codehub>4.0.0</neatlogic.codehub>
-                <neatlogic.rdm.commercial>4.0.0</neatlogic.rdm.commercial>
-                <neatlogic.cmdb.commercial>4.0.0</neatlogic.cmdb.commercial>
-                <neatlogic.document.online>4.0.0</neatlogic.document.online>
-                <neatlogic.document.online.commercial>4.0.0</neatlogic.document.online.commercial>
-                <neatlogic.dr>4.0.0</neatlogic.dr>
-                <neatlogic.dr.base>4.0.0</neatlogic.dr.base>
-                <neatlogic.diagram>4.0.0</neatlogic.diagram>
-                <neatlogic.resources>4.0.0</neatlogic.resources>
-                <neatlogic.alert>4.0.0</neatlogic.alert>
-                <neatlogic.alert.base>4.0.0</neatlogic.alert.base>
-                <neatlogic.alert.commercial>4.0.0</neatlogic.alert.commercial>
-                <neatlogic.database>4.0.0</neatlogic.database>
-                <neatlogic.informant>4.0.0</neatlogic.informant>
-                <neatlogic.informant.base>4.0.0</neatlogic.informant.base>
-                <neatlogic.ai>4.0.0</neatlogic.ai>
-                <neatlogic.ai.base>4.0.0</neatlogic.ai.base>
-            </properties>
-        </profile>
-        <profile>
-            <!--用于管理商业版的依赖模块-->
-            <id>commercial</id>
             <dependencyManagement>
                 <dependencies>
                     <dependency>
                         <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-master</artifactId>
-                        <version>${neatlogic.master}</version>
+                        <artifactId>neatlogic-modules-dev</artifactId>
+                        <version>0.4.0.0-SNAPSHOT</version>
+                        <type>pom</type>
+                        <scope>import</scope>
                     </dependency>
+                </dependencies>
+            </dependencyManagement>
+        </profile>
+        <profile>
+            <id>release</id>
+            <dependencyManagement>
+                <dependencies>
                     <dependency>
                         <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-pbc</artifactId>
-                        <version>${neatlogic.pbc}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-document-online-commercial</artifactId>
-                        <version>${neatlogic.document.online.commercial}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-codehub-base</artifactId>
-                        <version>${neatlogic.codehub.base}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-codehub</artifactId>
-                        <version>${neatlogic.codehub}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-rdm-commercial</artifactId>
-                        <version>${neatlogic.rdm.commercial}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-cmdb-commercial</artifactId>
-                        <version>${neatlogic.cmdb.commercial}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-dr-base</artifactId>
-                        <version>${neatlogic.dr.base}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-dr</artifactId>
-                        <version>${neatlogic.dr}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-diagram</artifactId>
-                        <version>${neatlogic.diagram}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-itsm-commercial</artifactId>
-                        <version>${neatlogic.itsm.commercial}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-tenant-commercial</artifactId>
-                        <version>${neatlogic.tenant.commercial}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-autoexec-commercial</artifactId>
-                        <version>${neatlogic.autoexec.commercial}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-deploy-commercial</artifactId>
-                        <version>${neatlogic.deploy.commercial}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-database</artifactId>
-                        <version>${neatlogic.database}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-alert-commercial</artifactId>
-                        <version>${neatlogic.alert.commercial}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-informant</artifactId>
-                        <version>${neatlogic.informant}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-informant-base</artifactId>
-                        <version>${neatlogic.informant.base}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-ai</artifactId>
-                        <version>${neatlogic.ai}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.neatlogic</groupId>
-                        <artifactId>neatlogic-ai-base</artifactId>
-                        <version>${neatlogic.ai.base}</version>
+                        <artifactId>neatlogic-modules-release</artifactId>
+                        <version>4.0.0</version>
+                        <type>pom</type>
+                        <scope>import</scope>
                     </dependency>
                 </dependencies>
             </dependencyManagement>
         </profile>
     </profiles>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-framework</artifactId>
-                <version>${neatlogic.framework}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-change-base</artifactId>
-                <version>${neatlogic.change.base}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-autoexec-base</artifactId>
-                <version>${neatlogic.autoexec.base}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-itsm-base</artifactId>
-                <version>${neatlogic.itsm.base}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-deploy-base</artifactId>
-                <version>${neatlogic.deploy.base}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-cmdb-base</artifactId>
-                <version>${neatlogic.cmdb.base}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-dashboard-base</artifactId>
-                <version>${neatlogic.dashboard.base}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-event-base</artifactId>
-                <version>${neatlogic.event.base}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-inspect-base</artifactId>
-                <version>${neatlogic.inspect.base}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-knowledge-base</artifactId>
-                <version>${neatlogic.knowledge.base}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-report-base</artifactId>
-                <version>${neatlogic.report.base}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-tagent-base</artifactId>
-                <version>${neatlogic.tagent.base}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-tenant</artifactId>
-                <version>${neatlogic.tenant}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-dashboard</artifactId>
-                <version>${neatlogic.dashboard}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-itsm</artifactId>
-                <version>${neatlogic.itsm}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-rdm</artifactId>
-                <version>${neatlogic.rdm}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-rdm-base</artifactId>
-                <version>${neatlogic.rdm.base}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-change</artifactId>
-                <version>${neatlogic.change}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-report</artifactId>
-                <version>${neatlogic.report}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-event</artifactId>
-                <version>${neatlogic.event}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-knowledge</artifactId>
-                <version>${neatlogic.knowledge}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-autoexec</artifactId>
-                <version>${neatlogic.autoexec}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-cmdb</artifactId>
-                <version>${neatlogic.cmdb}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-tagent</artifactId>
-                <version>${neatlogic.tagent}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-inspect</artifactId>
-                <version>${neatlogic.inspect}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-deploy</artifactId>
-                <version>${neatlogic.deploy}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-alert</artifactId>
-                <version>${neatlogic.alert}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-alert-base</artifactId>
-                <version>${neatlogic.alert.base}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-document-online</artifactId>
-                <version>${neatlogic.document.online}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.neatlogic</groupId>
-                <artifactId>neatlogic-resources</artifactId>
-                <version>${neatlogic.resources}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
     <build>
         <pluginManagement>
             <plugins>
@@ -407,9 +61,7 @@
                         <showWarnings>true</showWarnings>
                         <showDeprecation>true</showDeprecation>
                         <annotationProcessors>
-                            <annotationProcessor>
-                                neatlogic.framework.annotationprocessor.NeatLogicApiAnnotationProcessor
-                            </annotationProcessor>
+                            <annotationProcessor>neatlogic.framework.annotationprocessor.NeatLogicApiAnnotationProcessor</annotationProcessor>
                         </annotationProcessors>
                     </configuration>
                 </plugin>
@@ -493,7 +145,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- 代码直接调用log4j会被桥接到slf4j -->
+        <!--  代码直接调用log4j会被桥接到slf4j  -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>log4j-over-slf4j</artifactId>
@@ -505,7 +157,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- 代码直接调用common-logging会被桥接到slf4j -->
+        <!--  代码直接调用common-logging会被桥接到slf4j  -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jcl-over-slf4j</artifactId>
@@ -532,7 +184,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- 代码直接调用java.util.logging会被桥接到slf4j -->
+        <!--  代码直接调用java.util.logging会被桥接到slf4j  -->
         <dependency>
             <groupId>com.alibaba.nacos</groupId>
             <artifactId>nacos-spring-context</artifactId>
@@ -610,7 +262,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-compress</artifactId>
@@ -622,13 +273,11 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.18.0</version>
         </dependency>
-
         <dependency>
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
@@ -847,8 +496,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!--es start-->
-
+        <!-- es start -->
         <dependency>
             <groupId>co.elastic.clients</groupId>
             <artifactId>elasticsearch-java</artifactId>
@@ -860,14 +508,13 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
-        <!-- ONNX Runtime for Java -->
+        <!--  ONNX Runtime for Java  -->
         <dependency>
             <groupId>com.microsoft.onnxruntime</groupId>
             <artifactId>onnxruntime</artifactId>
             <version>1.22.0</version>
         </dependency>
-        <!--es end-->
+        <!-- es end -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
@@ -905,22 +552,22 @@
             <version>2.1.3</version>
         </dependency>
         <dependency>
-            <!-- dom4j需要依赖此组件 -->
+            <!--  dom4j需要依赖此组件  -->
             <groupId>jaxen</groupId>
             <artifactId>jaxen</artifactId>
             <version>1.2.0</version>
         </dependency>
-        <!--<dependency>
-            <groupId>net.sf.ehcache</groupId>
-            <artifactId>ehcache</artifactId>
-            <version>2.10.9.2</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>slf4j-api</artifactId>
-                    <groupId>org.slf4j</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>-->
+        <!-- <dependency>
+                    <groupId>net.sf.ehcache</groupId>
+                    <artifactId>ehcache</artifactId>
+                    <version>2.10.9.2</version>
+                    <exclusions>
+                        <exclusion>
+                            <artifactId>slf4j-api</artifactId>
+                            <groupId>org.slf4j</groupId>
+                        </exclusion>
+                    </exclusions>
+                </dependency> -->
         <dependency>
             <groupId>org.ehcache</groupId>
             <artifactId>ehcache</artifactId>
@@ -960,30 +607,27 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!--<dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-email</artifactId>
-            <version>1.6.0</version>
-        </dependency>-->
-
-        <!--<dependency>
-            <groupId>com.sun.mail</groupId>
-            <artifactId>javax.mail</artifactId>
-            <version>1.6.2</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>activation</artifactId>
-                    <groupId>javax.activation</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>-->
-
+        <!-- <dependency>
+                    <groupId>org.apache.commons</groupId>
+                    <artifactId>commons-email</artifactId>
+                    <version>1.6.0</version>
+                </dependency> -->
+        <!-- <dependency>
+                    <groupId>com.sun.mail</groupId>
+                    <artifactId>javax.mail</artifactId>
+                    <version>1.6.2</version>
+                    <exclusions>
+                        <exclusion>
+                            <artifactId>activation</artifactId>
+                            <groupId>javax.activation</groupId>
+                        </exclusion>
+                    </exclusions>
+                </dependency> -->
         <dependency>
             <groupId>com.sun.mail</groupId>
             <artifactId>jakarta.mail</artifactId>
             <version>2.0.2</version>
         </dependency>
-
         <dependency>
             <groupId>org.javers</groupId>
             <artifactId>javers-core</artifactId>
@@ -995,7 +639,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
         <dependency>
             <groupId>com.belerweb</groupId>
             <artifactId>pinyin4j</artifactId>
@@ -1021,7 +664,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+        <!--  https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml  -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
@@ -1037,31 +680,31 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
+        <!--  https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas  -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml-schemas</artifactId>
             <version>4.1.2</version>
         </dependency>
-        <!--<dependency>
-            <groupId>io.minio</groupId>
-            <artifactId>minio</artifactId>
-            <version>5.0.6</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.fasterxml.jackson.core</groupId>
-                    <artifactId>jackson-annotations</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>com.fasterxml.jackson.core</groupId>
-                    <artifactId>jackson-core</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>com.fasterxml.jackson.core</groupId>
-                    <artifactId>jackson-databind</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>-->
+        <!-- <dependency>
+                    <groupId>io.minio</groupId>
+                    <artifactId>minio</artifactId>
+                    <version>5.0.6</version>
+                    <exclusions>
+                        <exclusion>
+                            <groupId>com.fasterxml.jackson.core</groupId>
+                            <artifactId>jackson-annotations</artifactId>
+                        </exclusion>
+                        <exclusion>
+                            <groupId>com.fasterxml.jackson.core</groupId>
+                            <artifactId>jackson-core</artifactId>
+                        </exclusion>
+                        <exclusion>
+                            <groupId>com.fasterxml.jackson.core</groupId>
+                            <artifactId>jackson-databind</artifactId>
+                        </exclusion>
+                    </exclusions>
+                </dependency> -->
         <dependency>
             <groupId>io.minio</groupId>
             <artifactId>minio</artifactId>
@@ -1082,16 +725,17 @@
             </exclusions>
         </dependency>
         <dependency>
-            <!-- 导出pdf组件 -->
+            <!--  导出pdf组件  -->
             <groupId>org.jsoup</groupId>
             <artifactId>jsoup</artifactId>
             <version>1.15.3</version>
         </dependency>
         <dependency>
-            <!-- 导出pdf组件 -->
+            <!--  导出pdf组件  -->
             <groupId>org.docx4j</groupId>
             <artifactId>docx4j-ImportXHTML</artifactId>
-            <version>8.0.0</version> <!--这个版本不能随意替换，要做好测试-->
+            <version>8.0.0</version>
+            <!-- 这个版本不能随意替换，要做好测试 -->
             <exclusions>
                 <exclusion>
                     <groupId>org.docx4j</groupId>
@@ -1194,7 +838,7 @@
             </exclusions>
         </dependency>
         <dependency>
-            <!-- 没有这个包将使用远程转换pdf -->
+            <!--  没有这个包将使用远程转换pdf  -->
             <groupId>org.docx4j</groupId>
             <artifactId>docx4j-export-fo</artifactId>
             <version>8.2.9</version>
@@ -1217,7 +861,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
         <dependency>
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
@@ -1228,18 +871,17 @@
             <artifactId>jaxb-runtime</artifactId>
             <version>2.3.5</version>
         </dependency>
-        <!--<dependency>
-            <groupId>org.glassfish.jaxb</groupId>
-            <artifactId>jaxb-core</artifactId>
-            <version>2.3.0.1</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>txw2</artifactId>
+        <!-- <dependency>
                     <groupId>org.glassfish.jaxb</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>-->
-
+                    <artifactId>jaxb-core</artifactId>
+                    <version>2.3.0.1</version>
+                    <exclusions>
+                        <exclusion>
+                            <artifactId>txw2</artifactId>
+                            <groupId>org.glassfish.jaxb</groupId>
+                        </exclusion>
+                    </exclusions>
+                </dependency> -->
         <dependency>
             <groupId>commons-net</groupId>
             <artifactId>commons-net</artifactId>
@@ -1260,7 +902,7 @@
             <artifactId>jackson-annotations</artifactId>
             <version>${jackson.version}</version>
         </dependency>
-        <!--全文检索高亮关键字用-->
+        <!-- 全文检索高亮关键字用 -->
         <dependency>
             <groupId>net.sf.jtidy</groupId>
             <artifactId>jtidy</artifactId>
@@ -1282,7 +924,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
         <dependency>
             <groupId>org.apache.activemq</groupId>
             <artifactId>artemis-jms-client</artifactId>
@@ -1294,7 +935,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
         <dependency>
             <groupId>commons-beanutils</groupId>
             <artifactId>commons-beanutils</artifactId>
@@ -1306,19 +946,16 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
         <dependency>
             <groupId>commons-logging</groupId>
             <artifactId>commons-logging</artifactId>
             <version>1.3.5</version>
         </dependency>
-
         <dependency>
             <groupId>com.github.jsqlparser</groupId>
             <artifactId>jsqlparser</artifactId>
             <version>4.4</version>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>
@@ -1338,29 +975,26 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-messaging</artifactId>
             <version>5.3.39</version>
         </dependency>
-
         <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka-clients</artifactId>
             <version>3.8.1</version>
         </dependency>
-        <!--    <dependency>
-                <groupId>com.github.penggle</groupId>
-                <artifactId>kaptcha</artifactId>
-                <version>2.3.2</version>
-            </dependency>-->
-        <!--<dependency>
-            <groupId>com.neatlogic</groupId>
-            <artifactId>kaptcha</artifactId>
-            <version>2.3.2</version>
-        </dependency>-->
-
+        <!--     <dependency>
+                        <groupId>com.github.penggle</groupId>
+                        <artifactId>kaptcha</artifactId>
+                        <version>2.3.2</version>
+                    </dependency> -->
+        <!-- <dependency>
+                    <groupId>com.neatlogic</groupId>
+                    <artifactId>kaptcha</artifactId>
+                    <version>2.3.2</version>
+                </dependency> -->
         <dependency>
             <groupId>org.jasig.cas.client</groupId>
             <artifactId>cas-client-core</artifactId>
@@ -1376,8 +1010,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
-
         <dependency>
             <groupId>com.github.whvcse</groupId>
             <artifactId>easy-captcha</artifactId>
@@ -1394,7 +1026,7 @@
             <version>9.0.100</version>
             <scope>compile</scope>
         </dependency>
-        <!--mysql jdbc驱动-->
+        <!-- mysql jdbc驱动 -->
         <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
@@ -1407,7 +1039,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!--oceanbase jdbc驱动-->
+        <!-- oceanbase jdbc驱动 -->
         <dependency>
             <groupId>com.oceanbase</groupId>
             <artifactId>oceanbase-client</artifactId>
