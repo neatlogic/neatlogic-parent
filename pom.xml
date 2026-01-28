@@ -401,7 +401,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
                 <version>1.7.0</version>
                 <configuration>
                     <updatePomFile>true</updatePomFile>
-                    <flattenMode>resolveCiFriendliesOnly</flattenMode>
+                    <flattenMode>oss</flattenMode>
                 </configuration>
                 <executions>
                     <execution>
