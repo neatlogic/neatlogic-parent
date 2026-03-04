@@ -510,11 +510,11 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!--  ONNX Runtime for Java  -->
+
         <dependency>
-            <groupId>com.microsoft.onnxruntime</groupId>
-            <artifactId>onnxruntime</artifactId>
-            <version>1.22.0</version>
+            <groupId>io.qdrant</groupId>
+            <artifactId>client</artifactId>
+            <version>1.16.2</version>
         </dependency>
         <!-- es end -->
         <dependency>
