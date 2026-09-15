@@ -121,6 +121,13 @@
         </repository>
     </distributionManagement>
     <dependencies>
+        <!-- 各模块统一继承测试依赖，仅在测试阶段使用。 -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
