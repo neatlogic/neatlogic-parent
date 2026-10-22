@@ -14,6 +14,7 @@
         <spring.version>5.3.39</spring.version>
         <jackson.version>2.17.3</jackson.version>
         <elasticsearch.version>8.19.11</elasticsearch.version>
+        <graalvm.version>23.0.5</graalvm.version>
         <!--<elasticsearch.version>7.17.25</elasticsearch.version>-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
